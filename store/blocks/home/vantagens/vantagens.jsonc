@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#vantagens": {
+    "children": [
+      "flex-layout.col#vantagens1",
+      "flex-layout.col#vantagens2",
+      "flex-layout.col#vantagens3",
+      "flex-layout.col#vantagens4"
+    ],
+    "props": {
+      "blockClass": "vantagens",
+      "marginTop": 6,
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "colSizing": "equal"
+    }
+  },
+  "flex-layout.col#vantagens1": {
+    "children": ["flex-layout.row#vantagem1"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#vantagem1": {
+    "children": [
+      "image#vantagem1",
+      "rich-text#vantagem1"
+    ]
+  },
+  "image#vantagem1": {
+    "props": {
+      "src": "assets/images/vantagens/entrega.svg",
+      "maxHeight": "40px"
+    }
+  },
+  "rich-text#vantagem1": {
+    "props": {
+      "text": "Entregamos em todo o Brasil",
+      "blockClass": "vantagens"
+    }
+  },
+  "flex-layout.col#vantagens2": {
+    "children": ["flex-layout.row#vantagem2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#vantagem2": {
+    "children": [
+      "image#vantagem2",
+      "rich-text#vantagem2"
+    ]
+  },
+  "image#vantagem2": {
+    "props": {
+      "src": "assets/images/vantagens/boleto.svg",
+      "maxHeight": "40px"
+    }
+  },
+  "rich-text#vantagem2": {
+    "props": {
+      "text": "Desconto de 10% no boleto",
+      "blockClass": "vantagens"
+    }
+  },
+  "flex-layout.col#vantagens3": {
+    "children": ["flex-layout.row#vantagem3"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#vantagem3": {
+    "children": [
+      "image#vantagem3",
+      "rich-text#vantagem3"
+    ]
+  },
+  "image#vantagem3": {
+    "props": {
+      "src": "assets/images/vantagens/parcelamento.svg",
+      "maxHeight": "40px"
+    }
+  },
+  "rich-text#vantagem3": {
+    "props": {
+      "text": "Parcelamos em até 6x sem juros",
+      "blockClass": "vantagens"
+    }
+  },
+  "flex-layout.col#vantagens4": {
+    "children": ["flex-layout.row#vantagem4"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#vantagem4": {
+    "children": [
+      "image#vantagem4",
+      "rich-text#vantagem4"
+    ]
+  },
+  "image#vantagem4": {
+    "props": {
+      "src": "assets/images/vantagens/troca.svg",
+      "maxHeight": "40px"
+    }
+  },
+  "rich-text#vantagem4": {
+    "props": {
+      "text": "Troque grátis em até 30 dias",
+      "blockClass": "vantagens"
+    }
+  }
+}

@@ -2,9 +2,11 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banners",
+      "flex-layout.row#vantagens",
+      "__fold__.desktop",
       "flex-layout.row#titulo-navegue-por-casas",
       "slider-layout#navegue-por-casas",
-      "__fold__.desktop",
+      "__fold__",
       "flex-layout.row#titulo-ofertas",
       "flex-layout.row#ofertas",
       "__fold__",
