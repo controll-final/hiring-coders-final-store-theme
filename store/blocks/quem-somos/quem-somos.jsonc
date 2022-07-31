@@ -7,14 +7,13 @@
       "flex-layout.row#titulo-valores",
       "flex-layout.row#texto-valores",
       "flex-layout.row#titulo-historia",
-      "flex-layout.row#texto-historia",
-      "slider-layout#slider-cta-2"
+      "flex-layout.row#texto-historia"
     ]
   },
   "image#quem-somos": {
     "props": {
       "blockClass": "banner",
-      "src": "assets/images/banner/beeincontroll-quem-somos.jpeg"
+      "src": "assets/images/banner/hcshop-banner-01.jpg"
     }
   },
   "flex-layout.row#titulo-quem-somos": {
@@ -28,10 +27,10 @@
   },
   "rich-text#titulo-quem-somos": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "blockClass": ["section-title"],
-      "text": "Quem Somos"
+      "text": "A Bee In Controll nasceu inspirada no incrível poder de transformação, criatividade e união das abelhas."
     }
   },
   "flex-layout.row#texto-quem-somos": {
@@ -46,7 +45,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "A **Bee In Controll** nasceu inspirada no incrível poder de transformação, criatividade e união das abelhas. E pensando nisso, queremos te incentivar a unir-se a nós para se libertar dos padrões, usando sua criatividade como meio da transformação para assim assumir o controle do seu estilo. \n\n Nossa **missão** é trazer liberdade através de roupas **divertidas** e **criativas**, feitas especialmente para adoçar sua vida. E antes que você se pergunte, não usamos mel na fabricação de nossas peças, haha.\n\n Acreditamos que estilo não é seguir tendências, mas sim um poder capaz de expressar um pouco da sua personalidade e da sua essência, vestindo o que te faz sentir bem e confortável.\n\n **Então, por favor, vista-se de você!!**",
+      "text": " E pensando nisso, queremos te incentivar a unir-se a nós para se libertar dos padrões, usando sua criatividade como meio da transformação para assim assumir o controle do seu estilo. \nNossa missão é trazer liberdade através de roupas divertidas e criativas, feitas especialmente para adoçar sua vida. E antes que você se pergunte, não usamos mel na fabricação de nossas peças, haha.\n Acreditamos que estilo não é seguir tendências, mas sim um poder capaz de expressar um pouco da sua personalidade e da sua essência, vestindo o que te faz sentir bem e confortável.\nEntão, por favor, vista-se de você!!",
       "horizontalAlign": "left",
       "blockClass": "texto-quem-somos"
     }
@@ -62,8 +61,8 @@
   },
   "rich-text#titulo-valores": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "blockClass": ["section-title"],
       "text": "Valores"
     }
@@ -73,14 +72,21 @@
       "blockClass": ["container"]
     },
     "children": [
-      "rich-text#texto-valores"
+      "image#texto-valores", "rich-text#texto-valores"
     ]
   },
+  "image#texto-valores":{
+    "props": {
+      "blockClass": "banner",
+      "src": "assets/images/banner/beeincontroll-pic-about-us.png"
+    }
+  },
+
   "rich-text#texto-valores": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Uma única abelha  é pequena e frágil, mas quando se junta a outras, torna-se capaz de construir o ritmo da vida no bater de suas asas. \n\n **Cada tarefa importa** e por isso a colmeia se organiza para formar um ecossistema que trabalha em harmonia, como o som de vários instrumentos em uma orquestra. \n\nSão nesses **valores** de **persistência**, **organização** e **trabalho em conjunto** que a **equipe da Bee In Controll** se apoia, no qual cada um faz parte do ecossistema dessa colmeia que trabalha para proporcionar à você a oportunidade de expressar nas suas roupas exatamente o que **você quer gritar pro mundo**.",
+      "text": "Uma única abelha  é pequena e frágil, mas quando se junta a outras, torna-se capaz de construir o ritmo da vida no bater de suas asas. \n Cada tarefa importa e por isso a colmeia se organiza para formar um ecossistema que trabalha em harmonia, como o som de vários instrumentos em uma orquestra. \nSão nesses valores de persistência, organização e trabalho em conjunto que a **equipe da Bee In Controll** se apoia, no qual cada um faz parte do ecossistema dessa colmeia que trabalha para proporcionar à você a oportunidade de expressar nas suas roupas exatamente o que você quer gritar pro mundo.",
       "horizontalAlign": "left",
       "blockClass": "texto-quem-somos"
     }
@@ -96,8 +102,8 @@
   },
   "rich-text#titulo-historia": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "blockClass": ["section-title"],
       "text": "História"
     }
@@ -114,7 +120,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Ainda zumbindo com toda a experiência vivida no bootcamp Hiring Coders, um grupo de jovens adultos olharam para um jardim de possibilidades e se perguntaram: Por que não expressar nossa paixão e transformar o cotidiano das pessoas, da mesma forma como nós fomos transformados?\n\n Neste bootcamp, os participantes foram subdivididos em casas que refletiam sua habilidade mais afiada. A nossa era a criatividade, representada pela colaborativa e persistente abelha.\n\n Mas não pense que a definição de criatividade se resume às linhas de um dicionário Aurélio ou às páginas da Barsa. Criatividade envolve resolver problemas de forma única, se organizar em prol de um todo, explorar ao máximo seus instintos e traduzir pensamentos complexos em ações simples, para que estes sejam compreendidos por qualquer pessoa. E qual a melhor forma de mostrar tudo isso, senão na forma em que nos vestimos? \n\nPor isso, fundamos a **Bee In Controll**, uma loja divertida e criativa que **a-bee-solutamente** tem a sua cara e a sua essência! ",
+      "text": "Ainda zumbindo com toda a experiência vivida no bootcamp Hiring Coders, um grupo de jovens adultos olharam para um jardim de possibilidades e se perguntaram: Por que não expressar nossa paixão e transformar o cotidiano das pessoas, da mesma forma como nós fomos transformados?\n Neste bootcamp, os participantes foram subdivididos em casas que refletiam sua habilidade mais afiada. A nossa era a criatividade, representada pela colaborativa e persistente abelha.\n Mas não pense que a definição de criatividade se resume às linhas de um dicionário Aurélio ou às páginas da Barsa. Criatividade envolve resolver problemas de forma única, se organizar em prol de um todo, explorar ao máximo seus instintos e traduzir pensamentos complexos em ações simples, para que estes sejam compreendidos por qualquer pessoa. E qual a melhor forma de mostrar tudo isso, senão na forma em que nos vestimos? \nPor isso, fundamos a **Bee In Controll**, uma loja divertida e criativa que a-bee-solutamente tem a sua cara e a sua essência! ",
       "horizontalAlign": "left",
       "blockClass": "texto-quem-somos"
     }
