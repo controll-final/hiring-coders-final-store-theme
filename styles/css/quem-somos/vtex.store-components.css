@@ -1,0 +1,16 @@
+.imageElement--img-about-us {
+    max-width: 424px;
+    max-height: 330px;
+    margin-left: -220px;
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    
+    .imageElement--img-about-us {
+      max-width: 100vw;
+      max-height: 100vh;
+      margin-left: 0;
+    }
+
+  }

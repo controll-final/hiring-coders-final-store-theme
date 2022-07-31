@@ -1,27 +1,62 @@
 {
   "store.custom#quem-somos": {
     "blocks": [
-      "image#quem-somos",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+
+  "responsive-layout.desktop": {
+    "children": [
+      "image#quem-somos-desktop",
       "flex-layout.row#titulo-quem-somos",
       "flex-layout.row#texto-quem-somos",
+      "__fold__",
       "flex-layout.row#titulo-valores",
       "flex-layout.row#texto-valores",
       "flex-layout.row#titulo-historia",
-      "flex-layout.row#texto-historia"
-    ]
+      "flex-layout.row#texto-historia"]
   },
+
+  "responsive-layout.mobile": {
+    "children": [
+      "image#quem-somos-mobile",
+      "flex-layout.row#titulo-quem-somos",
+      "flex-layout.row#texto-quem-somos",
+      "__fold__",
+      "flex-layout.row#titulo-valores",
+      "flex-layout.row#texto-valores",
+      "flex-layout.row#titulo-historia",
+      "flex-layout.row#texto-historia"]
+  },
+
   "image#quem-somos": {
     "props": {
       "blockClass": "banner",
-      "src": "assets/images/banner/hcshop-banner-01.jpg"
+      "src": "assets/images/banner/banner-quem-somos.jpg"
     }
   },
+
+  "image#quem-somos-desktop": {
+    "props": {
+      "blockClass": "banner",
+      "src": "assets/images/banner/banner-quem-somos.jpg"
+    }
+  },
+
+  "image#quem-somos-mobile": {
+    "props": {
+      "blockClass": "banner",
+      "src": "assets/images/banner/banner-quem-somos-mobile.jpg"
+    }
+  },
+
   "flex-layout.row#titulo-quem-somos": {
     "title": "[Casas HC] - Titulo Casas",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": ["container", "section-title", "section-title-center"]
+      "blockClass": ["container", "section-title-about"]
     },
     "children": ["rich-text#titulo-quem-somos"]
   },
@@ -29,7 +64,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "blockClass": ["section-title"],
+      "blockClass": ["section-title-about"],
       "text": "A Bee In Controll nasceu inspirada no incrível poder de transformação, criatividade e união das abelhas."
     }
   },
@@ -55,7 +90,7 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": ["container", "section-title", "section-title-center"]
+      "blockClass": ["container", "section-title-about"]
     },
     "children": ["rich-text#titulo-valores"]
   },
@@ -63,7 +98,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "blockClass": ["section-title"],
+      "blockClass": ["section-title-about"],
       "text": "Valores"
     }
   },
@@ -77,7 +112,7 @@
   },
   "image#texto-valores":{
     "props": {
-      "blockClass": "banner",
+      "blockClass": "img-about-us",
       "src": "assets/images/banner/beeincontroll-pic-about-us.png"
     }
   },
@@ -96,7 +131,7 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": ["container", "section-title", "section-title-center"]
+      "blockClass": ["container", "section-title-about"]
     },
     "children": ["rich-text#titulo-historia"]
   },
@@ -104,7 +139,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "blockClass": ["section-title"],
+      "blockClass": ["section-title-about"],
       "text": "História"
     }
   },
