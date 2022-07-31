@@ -4,15 +4,16 @@
       "list-context.image-list#banners",
       "flex-layout.row#vantagens",
       "__fold__.desktop",
-      "flex-layout.row#titulo-navegue-por-casas",
-      "slider-layout#navegue-por-casas",
-      "__fold__",
-      "flex-layout.row#titulo-ofertas",
-      "flex-layout.row#ofertas",
-      "__fold__",
+      "flex-layout.row#titulo-bee-mine",
+      "flex-layout.row#bee-mine",
       "slider-layout#slider-cta-1",
+      "__fold__",
       "flex-layout.row#titulo-novidades",
-      "flex-layout.row#novidades"
+      "flex-layout.row#novidades",
+      "__fold__",
+      "slider-layout#slider-cta-2",
+      "flex-layout.row#titulo-marcas",
+      "slider-layout#marcas"
     ]
   }
 }

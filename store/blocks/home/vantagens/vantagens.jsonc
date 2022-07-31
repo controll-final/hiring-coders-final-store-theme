@@ -13,7 +13,8 @@
       "paddingBottom": 6,
       "horizontalAlign": "center",
       "fullWidth": true,
-      "colSizing": "equal"
+      "colSizing": "equal",
+      "colJustify": "around"
     }
   },
   "flex-layout.col#vantagens1": {

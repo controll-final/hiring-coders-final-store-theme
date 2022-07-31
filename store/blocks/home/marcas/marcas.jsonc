@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#titulo-marcas": {
+    "title": "[Home] - Titulo Seção: Marcas",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["container", "section-title"]
+    },
+    "children": ["rich-text#titulo-marcas"]
+  },
+  "rich-text#titulo-marcas": {
+    "title": "[Home] - Título: Marcas",
+    "props": {
+      "blockClass": ["section-title"],
+      "text": "Marcas"
+    }
+  },
+  "slider-layout#marcas": {
+    "title": "[Home] - Slider Marcas",
+    "props": {
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": "ease-in"
+      },
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "blockClass": ["container-marcas"]
+    },
+    "children": [
+      "image#marca1",
+      "image#marca2",
+      "image#marca3",
+      "image#marca4",
+      "image#marca5",
+      "image#marca6"
+    ]
+  },
+  "image#marca1": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-atmosphere.png",
+      "alt": "logotipo marca Atmosphere"
+    }
+  },
+  "image#marca2": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-bitsized.png",
+      "alt": "logotipo marca Bitsized"
+    }
+  },
+  "image#marca3": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-controll.png",
+      "alt": "logotipo marca Controll"
+    }
+  },
+  "image#marca4": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-speedware.png",
+      "alt": "Logotipo marca Speedware"
+    }
+  },
+  "image#marca5": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-dreamscape.png",
+      "alt": "logotipo marca Dreamscape"
+    }
+  },
+  "image#marca6": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/casas/logo-travellog.png",
+      "alt": "logotipo marca Dreamscape"
+    }
+  }
+}

@@ -4,3 +4,10 @@
   font-family: "Red Hat Display Medium", San Francisco, -apple-system, helvetica, sans-serif;
   font-weight: 700;
 }
+
+@media screen and (max-width: 640px) {
+
+  .paragraph--vantagens {
+    font-size: 8pt;
+  }  
+}

@@ -1,8 +1,5 @@
 {
   "store.custom#quem-somos": {
     "path": "/quem-somos"
-  },
-  "store.custom#casas-hc": {
-    "path": "/casas-hc"
   }
 }

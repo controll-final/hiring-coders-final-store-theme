@@ -3,19 +3,19 @@
     "title": "[Home] Banner principal",
     "children": ["slider-layout#slider-banners"],
     "props": {
-      "height": 424,
+      "height": 500,
       "images": [
         {
-          "image": "assets/images/banner/hcshop-banner-01.jpg",
-          "mobileImage": "assets/images/banner/hcshop-banner-01-mobile.jpg"
+          "image": "assets/images/banner/beeincontroll-banner-1.jpg",
+          "mobileImage": ""
         },
         {
-          "image": "assets/images/banner/hcshop-banner-02.jpg",
-          "mobileImage": "assets/images/banner/hcshop-banner-02-mobile.jpg"
+          "image": "assets/images/banner/beeincontroll-banner-2.jpg",
+          "mobileImage": ""
         },
         {
-          "image": "assets/images/banner/hcshop-banner-03.jpg",
-          "mobileImage": "assets/images/banner/hcshop-banner-03-mobile.jpg"
+          "image": "assets/images/banner/beeincontroll-banner-3.jpg",
+          "mobileImage": ""
         }
       ]
     }

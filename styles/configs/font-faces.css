@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: "Red Hat Display";
+  font-family: "Red Hat Display Medium";
   font-style: normal;
   font-weight: 700;
-  src: url(assets/fonts/red-hat.display.ttf) format("ttf");
+  src: url(assets/fonts/RedHatDisplay-Medium.ttf) format("ttf");
 }
