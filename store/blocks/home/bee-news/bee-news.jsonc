@@ -1,6 +1,6 @@
 {
-  "flex-layout.row#titulo-bee-mine": {
-    "title": "[Home] - Titulo Seção: Bee mine",
+  "flex-layout.row#titulo-bee-news": {
+    "title": "[Home] - Titulo Seção: Bee news",
     "props": {
       "fullWidth": false,
       "horizontalAlign": "between",
@@ -11,33 +11,33 @@
       "preserveLayoutOnMobile": true,
       "blockClass": ["container", "section-title"]
     },
-    "children": ["flex-layout.col#titulo-bee-mine1", "flex-layout.col#titulo-bee-mine2"]
+    "children": ["flex-layout.col#titulo-bee-news1", "flex-layout.col#titulo-bee-news2"]
   },
-  "flex-layout.col#titulo-bee-mine1": {
+  "flex-layout.col#titulo-bee-news1": {
     "props": {
       "horizontalAlign": "left",
       "verticalAlign": "middle"
     },
-    "children": ["rich-text#titulo-bee-mine"]
+    "children": ["rich-text#titulo-bee-news"]
   },
-  "flex-layout.col#titulo-bee-mine2": {
+  "flex-layout.col#titulo-bee-news2": {
     "props": {
       "horizontalAlign": "right",
       "verticalAlign": "middle"
     },
     "children": ["responsive-layout.desktop", "responsive-layout.tablet", "responsive-layout.phone"]
   },
-  "rich-text#titulo-bee-mine": {
-    "title": "[Home] - Título: Bee mine",
+  "rich-text#titulo-bee-news": {
+    "title": "[Home] - Título: Bee news",
     "props": {
       "blockClass": ["section-title"],
-      "text": "### Bee mine"
+      "text": "### Bee news"
     }
   },
-  "flex-layout.row#bee-mine": {
-    "children": ["list-context.product-list#bee-mine"]
+  "flex-layout.row#bee-news": {
+    "children": ["list-context.product-list#bee-news"]
   },
-  "list-context.product-list#bee-mine": {
+  "list-context.product-list#bee-news": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#produtos"],
     "props": {

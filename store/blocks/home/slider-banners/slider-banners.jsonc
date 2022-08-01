@@ -7,15 +7,15 @@
       "images": [
         {
           "image": "assets/images/banner/beeincontroll-banner-1.jpg",
-          "mobileImage": ""
+          "mobileImage": "assets/images/banner/beeincontroll-banner-1-mobile.jpg"
         },
         {
           "image": "assets/images/banner/beeincontroll-banner-2.jpg",
-          "mobileImage": ""
+          "mobileImage": "assets/images/banner/beeincontroll-banner-2-mobile.jpg"
         },
         {
           "image": "assets/images/banner/beeincontroll-banner-3.jpg",
-          "mobileImage": ""
+          "mobileImage": "assets/images/banner/beeincontroll-banner-3-mobile.jpg"
         }
       ]
     }
@@ -29,12 +29,13 @@
         "phone": 1
       },
       "autoplay": {
-        "timeout": 3000,
+        "timeout": 4000,
         "stopOnHover": true
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
+      "fullWidth": true,
       "blockClass": ["slider-banners"]
     }
   }

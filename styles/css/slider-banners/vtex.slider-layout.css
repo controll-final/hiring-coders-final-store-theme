@@ -1,17 +1,14 @@
 .slide--slider-banners {
-    padding: 16px;
+    padding: 0;
+    margin: 0;
 }
 
-.imageElement--slider-banners {
-    border-radius: 12px;
+.paginationDotsContainer--slider-banners {
+    padding: 18px;
 }
 
-@media screen and (min-width: 1024px) {
-    .slide--slider-banners {
-        padding: 0;
-    }
-
-    .imageElement--slider-banners {
-        border-radius: 0;
-    }
+@media screen and (max-width: 640px) {
+    .paginationDotsContainer--slider-banners {
+        display: none;
+    } 
 }

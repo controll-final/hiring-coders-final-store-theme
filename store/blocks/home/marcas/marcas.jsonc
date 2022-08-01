@@ -2,20 +2,36 @@
   "flex-layout.row#titulo-marcas": {
     "title": "[Home] - Titulo Seção: Marcas",
     "props": {
-      "fullWidth": true,
+      "fullWidth": false,
       "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
       "blockClass": ["container", "section-title"]
     },
+    "children": ["flex-layout.col#titulo-marcas1", "flex-layout.col#titulo-marcas2"]
+  },
+  "flex-layout.col#titulo-marcas1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
     "children": ["rich-text#titulo-marcas"]
+  },
+  "flex-layout.col#titulo-marcas2": {
+    "props": {
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
+    },
+    "children": ["responsive-layout.desktop", "responsive-layout.tablet", "responsive-layout.phone"]
   },
   "rich-text#titulo-marcas": {
     "title": "[Home] - Título: Marcas",
     "props": {
       "blockClass": ["section-title"],
-      "text": "Marcas"
+      "text": "### Marcas"
     }
   },
   "slider-layout#marcas": {

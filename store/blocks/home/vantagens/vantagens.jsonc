@@ -14,7 +14,8 @@
       "horizontalAlign": "center",
       "fullWidth": true,
       "colSizing": "equal",
-      "colJustify": "around"
+      "colJustify": "around",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#vantagens1": {
@@ -39,6 +40,7 @@
   "rich-text#vantagem1": {
     "props": {
       "text": "Entregamos em todo o Brasil",
+      "textAlignment": "CENTER",
       "blockClass": "vantagens"
     }
   },

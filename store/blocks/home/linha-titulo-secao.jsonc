@@ -1,0 +1,7 @@
+{
+  "image#linha-titulo-secao": {
+    "props": {
+      "src": "assets/images/linha-titulo-secao.svg"
+    }
+  }
+}
