@@ -12,8 +12,7 @@
       "flex-layout.row#titulo-quem-somos",
       "flex-layout.row#texto-quem-somos",
       "__fold__",
-      "flex-layout.row#titulo-valores",
-      "flex-layout.row#texto-valores",
+      "flex-layout.row#texto-valores-desktop",
       "flex-layout.row#titulo-historia",
       "flex-layout.row#texto-historia"]
   },
@@ -24,17 +23,9 @@
       "flex-layout.row#titulo-quem-somos",
       "flex-layout.row#texto-quem-somos",
       "__fold__",
-      "flex-layout.row#titulo-valores",
-      "flex-layout.row#texto-valores",
+      "flex-layout.row#texto-valores-mobile",
       "flex-layout.row#titulo-historia",
       "flex-layout.row#texto-historia"]
-  },
-
-  "image#quem-somos": {
-    "props": {
-      "blockClass": "banner",
-      "src": "assets/images/banner/banner-quem-somos.jpg"
-    }
   },
 
   "image#quem-somos-desktop": {
@@ -85,31 +76,43 @@
       "blockClass": "texto-quem-somos"
     }
   },
-  "flex-layout.row#titulo-valores": {
-    "title": "[Casas HC] - Titulo Casas",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "blockClass": ["container", "section-title-about"]
-    },
-    "children": ["rich-text#titulo-valores"]
-  },
-  "rich-text#titulo-valores": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "blockClass": ["section-title-about"],
-      "text": "Valores"
-    }
-  },
-  "flex-layout.row#texto-valores": {
+  
+ 
+  "flex-layout.row#texto-valores-desktop": {
     "props": {
       "blockClass": ["container"]
     },
     "children": [
-      "image#texto-valores", "rich-text#texto-valores"
+      "image#texto-valores", "flex-layout.col#valores"
     ]
   },
+  "flex-layout.row#texto-valores-mobile": {
+    "props": {
+      "blockClass": ["container"]
+    },
+    "children": [
+      "flex-layout.col#valores", "image#texto-valores"
+    ]
+  },
+
+  "flex-layout.col#valores": {
+    "props": {
+      "blockClass": ["container"]
+    },
+    "children": [
+      "rich-text#titulo-valores", "rich-text#texto-valores"
+    ]
+  },
+
+  "rich-text#titulo-valores": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-about-valores"],
+      "text": "Valores"
+    }
+  },
+
   "image#texto-valores":{
     "props": {
       "blockClass": "img-about-us",

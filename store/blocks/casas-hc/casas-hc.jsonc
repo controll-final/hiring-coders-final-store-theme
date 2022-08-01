@@ -39,6 +39,13 @@
       "text": "Casas do Programa"
     }
   },
+
+  "image#quem-somos": {
+    "props": {
+      "blockClass": "banner",
+      "src": "assets/images/banner/banner-quem-somos.jpg"
+    }
+  },
   "flex-layout.row#casa-hc-1": {
     "props": {
       "blockClass": ["container", "casa-hc"]

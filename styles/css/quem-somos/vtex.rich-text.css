@@ -9,6 +9,17 @@
   line-height: 46.31px;
 }
 
+.paragraph--section-title-about-valores{
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #4D4D4D;
+  font-size: 35px;
+  line-height: 46.31px;
+}
+
 .paragraph--texto-quem-somos {
   font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
     sans-serif;
@@ -21,5 +32,41 @@
   line-height: 32px;
 }
 
+@media only screen and (max-width: 640px) {
+    
+  .paragraph--section-title-about{
+    font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #4D4D4D;
+    font-size: 22px;
+    line-height: 29.11px;
+  }
 
+  .paragraph--section-title-about-valores{
+    font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #4D4D4D;
+    font-size: 22px;
+    line-height: 29.11px;
+  }
+  
+  .paragraph--texto-quem-somos {
+    font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #4D4D4D;
+  
+    font-size: 14px;
+    line-height: 18.52px;
+  }
+
+}
 
