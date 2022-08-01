@@ -35,7 +35,7 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
+  background-color: #E9E9E9;
   color: #fff;
   border: none;
 }
@@ -46,7 +46,7 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
+  background-color: #E9E9E9;
   color: #fff;
   border: none;
   margin-right: -24px;
@@ -107,7 +107,7 @@
 }
 
 .productNameContainer {
-  color: #142032;
+  color: #4D4D4D;
   font-weight: bold;
   font-size: 30px;
 }

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Futura Md BT";
+  font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 400;
   src: url(assets/fonts/Futura_Md_BT.ttf) format("ttf");
@@ -10,4 +10,11 @@
   font-style: normal;
   font-weight: 700;
   src: url(assets/fonts/VTEXTrust-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/RedHatDisplay-Bold.ttf) format("ttf");
 }

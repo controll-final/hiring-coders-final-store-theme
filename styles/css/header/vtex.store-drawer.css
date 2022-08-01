@@ -1,9 +1,9 @@
 .drawerContent{
-  background: #142032;
+  background: #515151;
   min-height: 100vh;
 }
 .closeIconButton{
-  color: #fff;
+  color: #FFC800;
 }
 
 .childrenContainer :global(.vtex-menu-2-x-menuContainerNav){

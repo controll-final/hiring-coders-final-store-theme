@@ -9,9 +9,10 @@
           "type": "category",
           "iconId": null,
           "highlight": false,
+          "onMountBehavior": "open",
           "itemProps": {
-            "categoryId": "21",
-            "text": "Camisetas"
+            "categoryId": "33",
+            "text": "Feminino"
           }
         },
         {
@@ -20,8 +21,8 @@
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": "19",
-            "text": "Canecas"
+            "categoryId": "34",
+            "text": "Masculino"
           }
         },
         {
@@ -30,8 +31,8 @@
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": "22",
-            "text": "Copos"
+            "categoryId": "35",
+            "text": "Infantil"
           }
         },
         {
@@ -40,50 +41,36 @@
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": "23",
-            "text": "Mochilas"
+            "categoryId": "42",
+            "text": "Personalizados"
           }
         },
         {
           "id": "menu-item-category-5",
-          "type": "category",
+          "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": "24",
-            "text": "Moletons"
+            "categoryId": 0,
+            "type": "internal",
+            "href": "collections/146/",
+            "text": "Novidades"
           }
         },
         {
           "id": "menu-item-category-6",
-          "type": "category",
+          "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": "25",
-            "text": "Mousepad"
-          }
-        },
-        {
-          "id": "menu-item-category-7",
-          "type": "category",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "categoryId": "26",
-            "text": "Hats"
-          }
-        },
-        {
-          "id": "menu-item-category-7",
-          "type": "category",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "categoryId": "27",
-            "text": "Notes"
+            "categoryId": "0",
+            "type": "internal",
+            "href": "collections/145/",
+            "text": "Ofertas"
           }
         }
+        
+        
       ]
     }
   }
