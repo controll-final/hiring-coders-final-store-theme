@@ -35,9 +35,9 @@
 }
 
 .galleryTitle--layout {
-  color: #142032;
+  color: #4D4D4D;
   text-transform: uppercase;
-  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
     sans-serif;
   font-size: 34px;
   line-height: 36px;
@@ -46,5 +46,5 @@
 .filterMessage {
   text-transform: uppercase;
   font-weight: 700;
-  color: #142032;
+  color: #4D4D4D;
 }

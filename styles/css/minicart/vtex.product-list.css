@@ -46,7 +46,7 @@
 .quantityInputContainer :global(.vtex-dropdown),
 .quantityDropdownMobileContainer :global(.vtex-dropdown),
 .quantityDropdownContainer :global(.vtex-dropdown) {
-  border: 1px solid #142032 !important;
+  border: 1px solid #4D4D4D !important;
   border-radius: 3px;
 }
 
@@ -58,14 +58,14 @@
 
 .quantityDropdownMobileContainer :global(.vtex-dropdown__arrow),
 .quantityDropdownContainer :global(.vtex-dropdown__arrow) {
-  color: #142032;
+  color: #4D4D4D;
 }
 
 .quantityInputContainer :global(.vtex-styleguide-9-x-input),
 .quantityDropdownMobileContainer :global(.vtex-dropdown__button),
 .availabilityMessageText,
 .quantityDropdownContainer :global(.vtex-dropdown__button) {
-  color: #142032;
+  color: #4D4D4D;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -98,7 +98,7 @@
 }
 
 .price {
-  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
     sans-serif;
   font-size: 18px;
   font-style: normal;

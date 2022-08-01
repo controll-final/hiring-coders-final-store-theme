@@ -1,5 +1,6 @@
 .logoContainer {
   padding: 0;
+ 
 }
 
 .logoImage--logo {
@@ -9,6 +10,7 @@
 
 .logoImage--logo-desktop {
   height: 50px;
+ 
 }
 
 .logoImage--logo-mobile {
@@ -17,13 +19,20 @@
 
 .autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
   border: none;
-  border-radius: 6px;
+  
+}
+
+.autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix){
+  background-color: transparent;
+
 }
 
 .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input) {
   font-size: 16px;
   font-weight: lighter;
-  color: #515151;
+  color: #666566;
+  background-color: #E9E9E9;
+  border-bottom: 1px dashed #4D4D4D;
 }
 
 .searchBarIcon--search-bar--search {
@@ -31,8 +40,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   width: 35px;
+  background-color: #E9E9E9;
 }
 
 .searchIcon--search-bar {
   display: none;
+  background-color: #E9E9E9;
 }

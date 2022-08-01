@@ -5,7 +5,7 @@
 :global(.vtex-login-2-x-container .vtex-button):active,
 :global(.vtex-minicart-2-x-minicartContainer .vtex-button):active {
   background: #ff5604;
-  color: #fff !important;
+  color: #FFC800 !important;
   text-decoration: none !important;
 }
 :global(.vtex-login-2-x-container .vtex-button) {
@@ -13,8 +13,8 @@
 }
 :global(.vtex-login-2-x-profile),
 :global(.vtex-minicart-2-x-minicartIconContainer) {
-  color: #fff;
+  color: #FFC800;
 }
 :global(.vtex-store-drawer-0-x-openIconContainer) {
-  color: #fff;
+  color: #FFC800;
 }
