@@ -1,9 +1,14 @@
 .imageElement--img-about-us {
     max-width: 424px;
     max-height: 330px;
-    margin-left: -220px;
+    padding-left: -80px;
+    margin-right: 25px;
   }
 
+.imageElement--banner-about{
+    width: 100vw;
+    margin-bottom: 80px;
+}
 
   @media only screen and (max-width: 640px) {
     
