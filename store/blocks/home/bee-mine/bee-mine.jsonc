@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#titulo-bee-mine": {
+  "flex-layout.row#section-title-bee-mine": {
     "title": "[Home] - Titulo Seção: Bee mine",
     "props": {
       "fullWidth": false,
@@ -9,28 +9,14 @@
       "preventVerticalStretch": true,
       "colSizing": "auto",
       "preserveLayoutOnMobile": true,
-      "blockClass": ["container", "section-title"]
+      "blockClass": ["container", "section-title", "section-title-dashed"]
     },
-    "children": ["flex-layout.col#titulo-bee-mine1", "flex-layout.col#titulo-bee-mine2"]
+    "children": ["rich-text#section-title-bee-mine"]
   },
-  "flex-layout.col#titulo-bee-mine1": {
-    "props": {
-      "horizontalAlign": "left",
-      "verticalAlign": "middle"
-    },
-    "children": ["rich-text#titulo-bee-mine"]
-  },
-  "flex-layout.col#titulo-bee-mine2": {
-    "props": {
-      "horizontalAlign": "right",
-      "verticalAlign": "middle"
-    },
-    "children": ["responsive-layout.desktop", "responsive-layout.tablet", "responsive-layout.phone"]
-  },
-  "rich-text#titulo-bee-mine": {
+  "rich-text#section-title-bee-mine": {
     "title": "[Home] - Título: Bee mine",
     "props": {
-      "blockClass": ["section-title"],
+      "blockClass": ["section-title", "section-title-dashed"],
       "text": "### Bee mine"
     }
   },
