@@ -4,15 +4,15 @@
       "list-context.image-list#banners",
       "flex-layout.row#vantagens",
       "__fold__.desktop",
-      "flex-layout.row#titulo-bee-mine",
+      "flex-layout.row#section-title-bee-mine",
       "flex-layout.row#bee-mine",
       "slider-layout#slider-cta-1",
       "__fold__",
-      "flex-layout.row#titulo-bee-news",
+      "flex-layout.row#section-title-bee-news",
       "flex-layout.row#bee-news",
       "__fold__",
       "slider-layout#slider-cta-2",
-      "flex-layout.row#titulo-marcas",
+      "flex-layout.row#section-title-brands",
       "slider-layout#marcas"
     ]
   }
