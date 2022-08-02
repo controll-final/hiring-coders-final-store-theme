@@ -5,23 +5,24 @@
   src: url(assets/fonts/RedHatDisplay-Regular.ttf) format("ttf");
 }
 
-@font-face {
-  font-family: "VTEX Trust Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url(assets/fonts/VTEXTrust-Bold.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Red Hat Display Medium";
-  font-style: normal;
-  font-weight: 700;
-  src: url(assets/fonts/RedHatDisplay-Medium.ttf) format("ttf");
-}
 
 @font-face {
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 700;
-  src: url(assets/fonts/RedHatDisplay-Bold.ttf) format("ttf");
+  src: url(assets/fonts/RedHatDisplay-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url(assets/fonts/RedHatDisplay-ExtraBold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "VTEX Trust Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/VTEXTrust-Bold.ttf) format("ttf");
 }
