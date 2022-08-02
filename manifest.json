@@ -64,7 +64,9 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "controll.hiringcoins": "0.x"
+    "vtex.category-menu": "2.x",
+    "controll.hiringcoins": "0.x",
+    "controll.product-suggestion-block": "0.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

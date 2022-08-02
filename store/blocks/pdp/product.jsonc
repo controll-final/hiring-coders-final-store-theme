@@ -2,6 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-page",
+      "suggestion",
       "flex-layout.row#titulo-ofertas",
       "flex-layout.row#ofertas",      
       "slider-layout#slider-cta-2"

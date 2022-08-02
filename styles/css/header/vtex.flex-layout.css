@@ -1,9 +1,11 @@
 .flexRow--header {
-  background-color: #142032;
+  background-color: #515151;
+ 
 }
 
 .flexRow--header-desktop {
   padding: 16px;
+  background-color: #E9E9E9;
 }
 
 .flexRowContent--header-desktop {
@@ -54,4 +56,5 @@
 .flexCol--logo-desktop,
 .flexCol--login-minicart-desktop {
   justify-content: center;
+
 }
