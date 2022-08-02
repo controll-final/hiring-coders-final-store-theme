@@ -1,0 +1,18 @@
+.sliderTrack--container-vantagens {
+  background-color: #4D4D4D;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide--container-vantagens {
+	margin: 1rem;
+}
+/* 
+@media screen and (max-width: 640px)  {
+  .paginationDot--container-vantagens {
+    height: 5rem;
+    width: 5rem;
+  }
+} */

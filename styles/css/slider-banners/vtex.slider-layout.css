@@ -7,8 +7,13 @@
     padding: 18px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 920px) {
     .paginationDotsContainer--slider-banners {
-        display: none;
+        display: inline-block;
+        top: 0;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
     } 
 }

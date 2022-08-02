@@ -38,6 +38,7 @@
     "title": "[Home] - Slider Marcas",
     "props": {
       "infinite": true,
+      "fullWidth": false,
       "showNavigationArrows": "never",
       "showPaginationDots": "mobileOnly",
       "slideTransition": {

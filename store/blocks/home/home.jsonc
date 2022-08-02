@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#banners",
-      "flex-layout.row#vantagens",
+      "responsive-layout.desktop#vantagens",
+      "responsive-layout.phone#vantagens",
       "__fold__.desktop",
       "flex-layout.row#titulo-bee-mine",
       "flex-layout.row#bee-mine",

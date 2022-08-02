@@ -41,7 +41,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#produtos"],
     "props": {
-      "collection": "146",
+      "collection": "147",
       "skusFilter": "FIRST_AVAILABLE"
     }
   }
