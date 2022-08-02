@@ -33,7 +33,7 @@
     position: absolute;
     left: 60px;
 
-    font-family: "VTEX Trust Bold", San Francisco, -apple-system, helvetica,
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
       sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -140,7 +140,7 @@
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 
-  background-color: ##FFC800;
+  background-color: #FFC800;
   margin-bottom: 10px;
   border: 4px solid #FFC800;
 }
@@ -187,19 +187,21 @@
 }
 
 .minicartProductListContainer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  background-color: #FFC800;
+  background-color: #FFF;
   margin: 0;
 }
 
 .minicartProductListContainer::-webkit-scrollbar {
   width: 5px;
-  background-color: #FFC800;
+  background-color: #FFF;
 }
 
 .minicartProductListContainer::-webkit-scrollbar-thumb {
   border-radius: 5px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #767576;
 }
