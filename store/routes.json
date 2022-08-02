@@ -1,5 +1,10 @@
 {
   "store.custom#quem-somos": {
     "path": "/quem-somos"
+  },
+
+  "store.custom#contato": {
+    "path": "/contato"
   }
+
 }

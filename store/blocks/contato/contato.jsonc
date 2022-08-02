@@ -1,0 +1,84 @@
+{
+    "store.custom#contato":{
+        "blocks": [
+            "responsive-layout.desktop#contato",
+            "responsive-layout.mobile#contato"
+          ]
+    },
+
+    "responsive-layout.desktop#contato": {
+        "children": [
+            "flex-layout.row#section-title-fale-conosco",
+            "flex-layout.row#corpo-formulario"]
+      },
+    
+      "responsive-layout.mobile#contato": {
+        "children": [
+            "flex-layout.row#section-title-fale-conosco",
+          "flex-layout.row#corpo-formulario"
+         ]
+      },
+
+      "flex-layout.row#titulo-formulario": {
+        "title": "Titulo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["rich-text#titulo-formulario"]
+      },
+
+
+      "flex-layout.row#section-title-fale-conosco": {
+        "title": "[Home] - Titulo Seção: Bee mine",
+        "props": {
+          "fullWidth": false,
+          "horizontalAlign": "between",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": true,
+          "blockClass": ["container", "section-title", "section-title-dashed"]
+        },
+        "children": ["rich-text#section-title-fale-conosco"]
+      },
+      "rich-text#section-title-fale-conosco": {
+        "title": "[Home] - Título: Bee mine",
+        "props": {
+          "blockClass": ["section-title-about-valores", "title-fale-conosco", "section-title-dashed"],
+          "text": "Fale Conosco"
+        }
+      },
+
+
+
+      "flex-layout.row#corpo-formulario": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["rich-text#corpo-formulario"]
+      },
+
+      "rich-text#titulo-formulario": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-about"],
+          "text": "Formulário"
+        }
+      },
+
+      "rich-text#corpo-formulario": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-about"],
+          "text": "Aqui vai o corpo do form"
+        }
+      }
+}
