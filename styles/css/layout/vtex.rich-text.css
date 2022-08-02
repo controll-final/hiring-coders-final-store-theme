@@ -1,5 +1,6 @@
 .paragraph--section-title {
-  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica, sans-serif;
+  font-family: "Futura Md BT", San Francisco, -apple-system, helvetica,
+    sans-serif;
   font-style: normal;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -21,5 +22,68 @@
   .paragraph--section-title {
     font-size: 34px;
     line-height: 36px;
+  }
+}
+
+.headingLevel3--section-title {
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  color: #4d4d4d;
+}
+
+@media screen and (min-width: 768px) {
+  .headingLevel3--section-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .headingLevel3--section-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+.container--section-title-dashed {
+  width: 100%;
+}
+
+.container--section-title-dashed::after {
+  content: "";
+  height: 1.5px;
+  width: 60%;
+  margin: auto 0 auto auto;
+  background: repeating-linear-gradient(
+    to left,
+    #4d4d4d 0px,
+    #4d4d4d 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .container--section-title-dashed::after {
+    height: 2px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container--section-title-dashed::after {
+    height: 2.5px;
+    width: 75%;
+    background: repeating-linear-gradient(
+      to left,
+      #4d4d4d 0px,
+      #4d4d4d 8px,
+      transparent 8px,
+      transparent 16px
+    );
   }
 }

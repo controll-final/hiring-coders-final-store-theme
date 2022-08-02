@@ -19,3 +19,7 @@
     margin-bottom: 16px;
   }
 }
+
+.flexRowContent--section-title-dashed {
+  display: block;
+}

@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#section-title-bee-mine": {
+    "title": "[Home] - Titulo Seção: Bee mine",
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-bee-mine"]
+  },
+  "rich-text#section-title-bee-mine": {
+    "title": "[Home] - Título: Bee mine",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Bee mine"
+    }
+  },
+  "flex-layout.row#section-title-bee-news": {
+    "title": "[Home] - Titulo Seção: Bee News",
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-bee-news"]
+  },
+  "rich-text#section-title-bee-news": {
+    "title": "[Home] - Título: Bee mine",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Bee news"
+    }
+  },
+  "flex-layout.row#section-title-brands": {
+    "title": "[Home] - Titulo Seção: Marcas",
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-brands"]
+  },
+  "rich-text#section-title-brands": {
+    "title": "[Home] - Título: Marcas",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Marcas"
+    }
+  }
+}
