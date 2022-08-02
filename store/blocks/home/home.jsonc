@@ -3,6 +3,7 @@
     "blocks": [
       "list-context.image-list#banners",
       "responsive-layout.desktop#vantagens",
+      "responsive-layout.tablet#vantagens",
       "responsive-layout.phone#vantagens",
       "__fold__.desktop",
       "flex-layout.row#section-title-bee-mine",

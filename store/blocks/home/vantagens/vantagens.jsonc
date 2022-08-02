@@ -1,10 +1,10 @@
 {
-  "responsive-layout.desktop#vantagens": {
+  "responsive-layout.desktop#vantagens1": {
     "children": [
       "slider-layout#vantagens-desktop"
     ]
   },
-  "responsive-layout.phone#vantagens": {
+  "responsive-layout.phone#vantagens1": {
     "children": [
       "slider-layout#vantagens-phone"
     ]
