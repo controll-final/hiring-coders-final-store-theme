@@ -12,6 +12,11 @@
 .flexRow--section-title {
   margin-top: 16px;
   margin-bottom: 12px;
+  padding: 0 16px;
+}
+
+.flexRow--section-title :global(.vtex-store-components-3-x-container) {
+  padding: 0;
 }
 
 @media screen and (min-width: 992px) {
