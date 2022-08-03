@@ -1,3 +1,17 @@
+.container {
+  float: none;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  opacity: 0.7;
+}
+
+.box {
+  right: -100px!important;
+}
+
 .container :global(.vtex-button) {
   background-color: transparent !important;
   padding-bottom: 0 !important;
@@ -25,6 +39,17 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  color: #4D4D4D;
+  color: #4D4D4D!important;
   text-transform: none;
+}
+
+.profile {
+  max-width: 90px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1320px) {
+  .profile {
+    max-width: 120px;
+  }
 }

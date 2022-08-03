@@ -19,7 +19,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-desktop",
-      "flex-layout.col#login-minicart-desktop"
+      "flex-layout.col#login-container",
+      "flex-layout.col#minicart-desktop"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -49,38 +50,20 @@
     },
     "children": ["search-bar"]
   },
-  "flex-layout.col#login-minicart-desktop": {
-    "props": {
-      "width": "20%",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "blockClass": ["login-minicart-desktop"]
-    },
-    "children": ["flex-layout.row#login-minicart-desktop"]
-  },
-  "flex-layout.row#login-minicart-desktop": {
-    "props": {
-      "blockClass": [
-        "login-minicart-desktop"
-      ],
-      "horizontalAlign": "between",
-      "colSizing": "auto",
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.col#login-container",
-      "flex-layout.col#minicart-desktop"
-    ]
-  },
   "flex-layout.col#login-container": {
     "props": {
-      "blockClass": [
-        "login-container"
-      ]
+      "verticalAlign": "center",
+      "width": "10%",
+      "blockClass": ["login-container"]
     },
-    "children": ["login", "hiringcoins"]
+    "children": ["login"]
   },
   "flex-layout.col#minicart-desktop": {
+    "props": {
+      "verticalAlign": "center",
+      "width": "10%",
+      "blockClass": ["minicart-container"]
+    },
     "children": ["minicart.v2#default"]
   }
 }
