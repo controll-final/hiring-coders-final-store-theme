@@ -18,7 +18,7 @@
     ]
   },
   "flex-layout.col#links-1-mobile": {
-    "children": ["link#link-1", "link#link-2", "link#link-3"]
+    "children": ["link#link-1", "link#link-3"]
   },
   "flex-layout.col#links-2-mobile": {
     "children": ["link#link-4", "link#link-5", "link#link-6"]
