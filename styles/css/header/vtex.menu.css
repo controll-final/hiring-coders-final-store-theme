@@ -3,7 +3,8 @@
 }
 
 .styledLinkContainer{
-  padding-bottom: 1.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .styledLinkContent {
@@ -26,8 +27,7 @@
 .menuContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  background-color: #D9D9D9;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1024px) {

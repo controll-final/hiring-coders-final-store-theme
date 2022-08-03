@@ -1,6 +1,5 @@
 .logoContainer {
   padding: 0;
- 
 }
 
 .logoImage--logo {
@@ -9,8 +8,7 @@
 }
 
 .logoImage--logo-desktop {
-  height: 50px;
- 
+  height: 55px;
 }
 
 .logoImage--logo-mobile {
@@ -19,20 +17,27 @@
 
 .autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
   border: none;
-  
 }
 
-.autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix){
+.autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix) {
   background-color: transparent;
+  padding: 0;
+}
 
+.searchBarContainer--search-bar {
+  background-color: #e9e9e9;
+}
+
+.searchBarInnerContainer--search-bar {
+  background-color: #e9e9e9;
+  border-bottom: 1px dashed #4d4d4d;
 }
 
 .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input) {
   font-size: 16px;
   font-weight: lighter;
   color: #666566;
-  background-color: #E9E9E9;
-  border-bottom: 1px dashed #4D4D4D;
+  background-color: #e9e9e9;
 }
 
 .searchBarIcon--search-bar--search {
@@ -40,10 +45,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   width: 35px;
-  background-color: #E9E9E9;
 }
 
 .searchIcon--search-bar {
   display: none;
-  background-color: #E9E9E9;
 }

@@ -16,7 +16,10 @@
   },
   "login":{
     "props":{
-      "blockClass": "login"
+      "blockClass": "login",
+      "showIconProfile": false,
+      "identifierPlaceholder": "Teste",
+      "labelClasses": ["teste"]
     }
   }
 }
