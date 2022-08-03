@@ -23,8 +23,8 @@
   },
   "link#link-1": {
     "props": {
-      "href": "/sobre-nos",
-      "label": "Sobre nós",
+      "href": "/quem-somos",
+      "label": "Quem somos",
       "blockClass": ["link-footer"]
     }
   },
