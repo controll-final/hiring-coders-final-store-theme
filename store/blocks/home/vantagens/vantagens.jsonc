@@ -4,12 +4,42 @@
       "slider-layout#vantagens-desktop"
     ]
   },
-  "responsive-layout.phone#vantagens": {
+  "responsive-layout.tablet#vantagens": {
     "children": [
-      "slider-layout#vantagens-phone"
+      "slider-layout#vantagens-tablet"
     ]
   },
-  "slider-layout#vantagens-desktop": {
+  "responsive-layout.phone#vantagens": {
+    "children": [
+      "flex-layout.row#vantagens-phone1",
+      "flex-layout.row#vantagens-phone2"
+    ]
+  },
+  "flex-layout.row#vantagens-phone1": {
+    "title": "[Home] - Vantagens",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "container-vantagens1"
+    },
+    "children": [
+      "image#vantagem1",
+      "image#vantagem2"
+    ]
+  },
+  "flex-layout.row#vantagens-phone2": {
+    "title": "[Home] - Vantagens",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "container-vantagens2"
+    },
+    "children": [
+      "image#vantagem3",
+      "image#vantagem4"
+    ]
+  },
+  "slider-layout#vantagens-tablet": {
     "title": "[Home] - Slider Vantagens",
     "props": {
       "infinite": true,
@@ -34,7 +64,7 @@
       "image#vantagem4"
     ]
   },
-  "slider-layout#vantagens-phone": {
+  "slider-layout#vantagens-desktop": {
     "title": "[Home] - Slider Vantagens",
     "props": {
       "infinite": true,
@@ -47,10 +77,8 @@
         "timing": "ease-in"
       },
       "itemsPerPage": {
-        "phone": 2
-      },
-      "autoplay": {
-        "timeout": 8000
+        "desktop": 4,
+        "tablet": 4
       },
       "blockClass": ["container-vantagens"]
     },

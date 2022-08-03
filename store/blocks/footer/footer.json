@@ -18,20 +18,13 @@
       "width": 180,
       "height": 60,
       "url": "/",
-      "src": "assets/images/logo/logo-desktop.svg"
+      "src": "assets/images/logo/logo-footer-desktop.png"
     }
   },
   "link#link-1": {
     "props": {
       "href": "/quem-somos",
-      "label": "Quem Somos",
-      "blockClass": ["link-footer"]
-    }
-  },
-  "link#link-2": {
-    "props": {
-      "href": "/casas-hc",
-      "label": "Casas do Programa",
+      "label": "Quem somos",
       "blockClass": ["link-footer"]
     }
   },
@@ -77,7 +70,7 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/Bee-In-Controll-roupas-e-acess%C3%B3rios-111566571647591"
         },
         {
           "name": "Instagram",
@@ -107,7 +100,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Realização",
+      "text": "Realização Equipe #HC Controll",
       "blockClass": ["text-footer"]
     }
   },

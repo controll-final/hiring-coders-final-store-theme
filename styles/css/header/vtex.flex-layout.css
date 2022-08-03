@@ -27,11 +27,13 @@
 
 .flexRow--header-mobile {
   padding: 8px 16px 0px 16px;
+  color: #E9E9E9;
 }
 
 .flexRowContent--header-mobile {
   justify-content: space-between;
   margin: 0 auto;
+  color: #E9E9E9;
 }
 
 .flexRow--search-mobile {
