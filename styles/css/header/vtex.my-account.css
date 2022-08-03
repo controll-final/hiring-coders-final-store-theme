@@ -18,3 +18,9 @@
 :global(.vtex-store-drawer-0-x-openIconContainer) {
   color: #FFC800;
 }
+
+@media only screen and (max-width: 1024px) {
+  :global(.vtex-store-drawer-0-x-openIconContainer) {
+    color: #e9e9e9;
+  }
+}
