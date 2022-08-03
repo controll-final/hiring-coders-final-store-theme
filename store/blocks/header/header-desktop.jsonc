@@ -24,7 +24,7 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "width": "25%",
+      "width": "15%",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "blockClass": ["logo-desktop"]
@@ -44,14 +44,14 @@
   },
   "flex-layout.col#search-desktop": {
     "props": {
-      "width": "35%",
+      "width": "50%",
       "verticalAlign": "center"
     },
     "children": ["search-bar"]
   },
   "flex-layout.col#login-minicart-desktop": {
     "props": {
-      "width": "25%",
+      "width": "20%",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "blockClass": ["login-minicart-desktop"]

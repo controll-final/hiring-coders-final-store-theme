@@ -9,8 +9,7 @@
 }
 
 .logoImage--logo-desktop {
-  height: 50px;
- 
+  height: 55px; 
 }
 
 .logoImage--logo-mobile {
@@ -18,13 +17,11 @@
 }
 
 .autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
-  border: none;
-  
+  border: none;  
 }
 
 .autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix){
   background-color: transparent;
-
 }
 
 .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input) {

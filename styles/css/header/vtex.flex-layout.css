@@ -8,8 +8,14 @@
   background-color: #E9E9E9;
 }
 
+
 .flexRowContent--header-desktop {
   justify-content: space-between;
+  padding: 0px;
+}
+
+.flexRow--menu-desktop {
+  background-color: #D9D9D9;
 }
 
 .flexRowContent--menu-desktop {
@@ -53,8 +59,11 @@
   margin-bottom: -50px;
 }
 
+.flexCol--logo-desktop {
+  align-items: flex-start;
+}
+
 .flexCol--logo-desktop,
 .flexCol--login-minicart-desktop {
   justify-content: center;
-
 }
