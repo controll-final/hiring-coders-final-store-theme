@@ -51,9 +51,8 @@
           "iconId": null,
           "highlight": false,
           "itemProps": {
-            "categoryId": 0,
             "type": "internal",
-            "href": "collections/146/",
+            "href": "/146?map=productClusterIds",
             "text": "Novidades"
           }
         },
@@ -65,7 +64,7 @@
           "itemProps": {
             "categoryId": "0",
             "type": "internal",
-            "href": "collections/145/",
+            "href": "/145?map=productClusterIds",
             "text": "Ofertas"
           }
         }
