@@ -36,9 +36,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/images/logo/logo-desktop.svg",
-      "width": "180",
-      "height": "50",
+      "url": "assets/images/logo/logo-light.svg",
+      "width": "185",
+      "height": "55",
       "blockClass": ["logo", "logo-desktop"]
     }
   },
