@@ -51,7 +51,7 @@
           "verticalAlign": "center",
           "blockClass": ["container", "section-title-about"]
         },
-        "children": ["rich-text#corpo-formulario", "contact-form"]
+        "children": ["image#contato", "contact-form-b"]
       },
 
       "rich-text#titulo-formulario": {
@@ -63,12 +63,10 @@
         }
       },
 
-      "rich-text#corpo-formulario": {
+      "image#contato":{
         "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "blockClass": ["section-title-about"],
-          "text": "Aqui vai a imagem"
+          "blockClass": "img-contato",
+          "src": "assets/images/banner/beeincontroll-img-contato.png"
         }
-      }
+      } 
 }
