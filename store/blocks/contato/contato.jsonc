@@ -14,21 +14,10 @@
     
       "responsive-layout.mobile#contato": {
         "children": [
-            "flex-layout.row#section-title-fale-conosco",
+          "flex-layout.row#section-title-fale-conosco",
           "flex-layout.row#corpo-formulario"
          ]
       },
-
-      "flex-layout.row#titulo-formulario": {
-        "title": "Titulo Formulario",
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
-        },
-        "children": ["rich-text#titulo-formulario"]
-      },
-
 
       "flex-layout.row#section-title-fale-conosco": {
         "title": "[Home] - Titulo Seção: Bee mine",
@@ -44,6 +33,7 @@
         },
         "children": ["rich-text#section-title-fale-conosco"]
       },
+      
       "rich-text#section-title-fale-conosco": {
         "title": "[Home] - Título: Bee mine",
         "props": {
@@ -61,7 +51,7 @@
           "verticalAlign": "center",
           "blockClass": ["container", "section-title-about"]
         },
-        "children": ["rich-text#corpo-formulario"]
+        "children": ["rich-text#corpo-formulario", "contact-form"]
       },
 
       "rich-text#titulo-formulario": {
@@ -78,7 +68,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-title-about"],
-          "text": "Aqui vai o corpo do form"
+          "text": "Aqui vai a imagem"
         }
       }
 }
