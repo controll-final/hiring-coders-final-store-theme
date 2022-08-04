@@ -12,7 +12,11 @@
 }
 
 .logoImage--logo-mobile {
-  height: 40px;
+  height: 38px;
+}
+
+.logoLink--logo-mobile {
+  padding-top: 8px;
 }
 
 .autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
@@ -25,23 +29,27 @@
 }
 
 .searchBarContainer--search-bar {
-  background-color: #e9e9e9;
+  background-color: #515151;
 }
 
 .searchBarInnerContainer--search-bar {
-  background-color: #e9e9e9;
-  border-bottom: 1px dashed #4d4d4d;
+  background-color: #515151;
+  border-bottom: 1px dashed #e9e9e9;
 }
 
 .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input) {
   font-size: 16px;
   font-weight: lighter;
-  color: #666566;
-  background-color: #e9e9e9;
+  color: #e9e9e9;
+  background-color: #515151;
+}
+
+.searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #e9e9e9;
 }
 
 .searchBarIcon--search-bar--search {
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='21' viewBox='0 0 29 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.7798 0C16.7328 0 21.5593 4.44968 21.5593 9.93753C21.5593 15.4254 16.7328 19.8748 10.7798 19.8748C4.82678 19.8748 0 15.4254 0 9.93753C0 4.44968 4.82678 0 10.7798 0ZM2.69495 9.93758C2.69495 14.0475 6.32141 17.3904 10.7797 17.3904C15.2378 17.3904 18.8646 14.0475 18.8646 9.93758C18.8646 5.82767 15.2378 2.4845 10.7797 2.4845C6.32141 2.4845 2.69495 5.82767 2.69495 9.93758Z' fill='%23515151'%3E%3C/path%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M27.9561 22.2592L23.129 17.8089C22.1941 16.9469 20.7314 17.1055 19.811 17.983C18.7941 18.9525 18.5893 20.6501 19.6223 21.6025L24.1454 25.7721C25.1983 26.7425 26.9054 26.7425 27.9561 25.7721C29.009 24.8033 29.0089 23.2296 27.9561 22.2592Z' fill='%23515151'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='21' viewBox='0 0 29 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.7798 0C16.7328 0 21.5593 4.44968 21.5593 9.93753C21.5593 15.4254 16.7328 19.8748 10.7798 19.8748C4.82678 19.8748 0 15.4254 0 9.93753C0 4.44968 4.82678 0 10.7798 0ZM2.69495 9.93758C2.69495 14.0475 6.32141 17.3904 10.7797 17.3904C15.2378 17.3904 18.8646 14.0475 18.8646 9.93758C18.8646 5.82767 15.2378 2.4845 10.7797 2.4845C6.32141 2.4845 2.69495 5.82767 2.69495 9.93758Z' fill='%23E9E9E9'%3E%3C/path%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M27.9561 22.2592L23.129 17.8089C22.1941 16.9469 20.7314 17.1055 19.811 17.983C18.7941 18.9525 18.5893 20.6501 19.6223 21.6025L24.1454 25.7721C25.1983 26.7425 26.9054 26.7425 27.9561 25.7721C29.009 24.8033 29.0089 23.2296 27.9561 22.2592Z' fill='%23E9E9E9'%3E%3C/path%3E%3C/svg%3E");
   background-position: center center;
   background-repeat: no-repeat;
   width: 35px;
@@ -49,4 +57,28 @@
 
 .searchIcon--search-bar {
   display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  .searchBarContainer--search-bar {
+    background-color: #e9e9e9;
+  }
+
+  .searchBarInnerContainer--search-bar {
+    background-color: #e9e9e9;
+    border-bottom: 1px dashed #4d4d4d;
+  }
+
+  .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input) {
+    color: #666566;
+    background-color: #e9e9e9;
+  }
+
+  .searchBarInnerContainer--search-bar :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #666566;
+  }
+
+  .searchBarIcon--search-bar--search {
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='21' viewBox='0 0 29 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.7798 0C16.7328 0 21.5593 4.44968 21.5593 9.93753C21.5593 15.4254 16.7328 19.8748 10.7798 19.8748C4.82678 19.8748 0 15.4254 0 9.93753C0 4.44968 4.82678 0 10.7798 0ZM2.69495 9.93758C2.69495 14.0475 6.32141 17.3904 10.7797 17.3904C15.2378 17.3904 18.8646 14.0475 18.8646 9.93758C18.8646 5.82767 15.2378 2.4845 10.7797 2.4845C6.32141 2.4845 2.69495 5.82767 2.69495 9.93758Z' fill='%23515151'%3E%3C/path%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M27.9561 22.2592L23.129 17.8089C22.1941 16.9469 20.7314 17.1055 19.811 17.983C18.7941 18.9525 18.5893 20.6501 19.6223 21.6025L24.1454 25.7721C25.1983 26.7425 26.9054 26.7425 27.9561 25.7721C29.009 24.8033 29.0089 23.2296 27.9561 22.2592Z' fill='%23515151'%3E%3C/path%3E%3C/svg%3E");
+  }
 }
