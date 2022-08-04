@@ -51,7 +51,7 @@
           "verticalAlign": "center",
           "blockClass": ["container", "section-title-about"]
         },
-        "children": ["image#contato", "contact-form-b"]
+        "children": ["image#contato", "contact-me"]
       },
 
       "rich-text#titulo-formulario": {
