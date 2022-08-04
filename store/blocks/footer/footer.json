@@ -51,7 +51,7 @@
   },
   "link#link-6": {
     "props": {
-      "href": "#",
+      "href": "/contato",
       "label": "Contato",
       "blockClass": ["link-footer"]
     }
