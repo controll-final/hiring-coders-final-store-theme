@@ -42,8 +42,6 @@
         }
       },
 
-
-
       "flex-layout.row#corpo-formulario": {
         "title": "Corpo Formulario",
         "props": {
@@ -51,7 +49,17 @@
           "verticalAlign": "center",
           "blockClass": ["container", "section-title-about"]
         },
-        "children": ["image#contato", "contact-me"]
+        "children": ["flex-layout.col#img-formulario", "contact-me"]
+      },
+
+      "flex-layout.col#img-formulario": {
+        "title": "Corpo Formulario",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": [ "flex-layout.row#formulario-1", "flex-layout.row#formulario-2"]
       },
 
       "rich-text#titulo-formulario": {
@@ -61,12 +69,5 @@
           "blockClass": ["section-title-about"],
           "text": "Formulário"
         }
-      },
-
-      "image#contato":{
-        "props": {
-          "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-contato.png"
-        }
-      } 
+      }
 }
