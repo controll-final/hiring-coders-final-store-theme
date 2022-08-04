@@ -42,7 +42,7 @@
     },
     "children": [
       "flex-layout.row#product-cart-header",
-      "flex-layout.row#quantity-and_price"
+      "flex-layout.row#quantity-and-price"
     ]
   },
   "flex-layout.row#product-cart-header": {
@@ -60,9 +60,12 @@
       "vtex.product-list:product-name"
     ]
   },
-  "flex-layout.row#quantity-and_price": {
+  "flex-layout.row#quantity-and-price": {
     "props": {
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": [
+        "quantity-and-price"
+      ]
     },
     "children": ["quantity-selector", "flex-layout.col#price"]
   },

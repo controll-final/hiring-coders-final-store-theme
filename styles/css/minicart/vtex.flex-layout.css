@@ -11,3 +11,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.flexRow--quantity-and-price {
+  padding-top: 8px;
+}
