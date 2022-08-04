@@ -2,15 +2,35 @@
   background: #515151;
   min-height: 100vh;
 }
+
 .closeIconButton{
-  color: #FFC800;
+  color: #E9E9E9;
 }
 
 .childrenContainer :global(.vtex-menu-2-x-menuContainerNav){
   width: 100%;
 }
+
 .childrenContainer :global(.vtex-menu-2-x-styledLinkContent){
   display: block;
   box-sizing: border-box;
   padding: 10px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.openIconContainer {
+  padding: 16px;
+}
+
+.openIconContainer::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='17' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M.667 1.625a1 1 0 011-1H30.57a1 1 0 110 2H1.666a1 1 0 01-1-1zM.667 8.5a1 1 0 011-1H30.57a1 1 0 110 2H1.666a1 1 0 01-1-1zM.667 15.375a1 1 0 011-1H30.57a1 1 0 110 2H1.666a1 1 0 01-1-1z' fill='%23fff'/%3E%3C/svg%3E");
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  background-position: 50%;
 }

@@ -65,5 +65,12 @@
       "blockClass": ["minicart-container"]
     },
     "children": ["minicart.v2#default"]
+  },
+  "flex-layout.row#menu-desktop": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["container", "menu-desktop"]
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
   }
 }

@@ -26,7 +26,7 @@
 }
 
 .flexRow--header-mobile {
-  padding: 8px 16px 0px 16px;
+  padding: 8px 16px 0px 0px;
   color: #E9E9E9;
 }
 
@@ -48,4 +48,12 @@
 .flexCol--login-container,
 .flexCol--minicart-container {
   justify-content: center;
+}
+
+.flexColChild--login-minicart-mobile {
+  display: flex;
+}
+
+.flexRow--login-minicart-mobile {
+  display: flex;
 }
