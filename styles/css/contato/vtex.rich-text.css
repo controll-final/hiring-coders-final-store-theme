@@ -1,4 +1,17 @@
 .container--title-fale-conosco {
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.paragraph--section-contato {
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,sans-serif;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #4D4D4D;
+  font-size: 19px;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 170px;
 }

@@ -47,7 +47,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "blockClass": ["container"]
         },
         "children": ["flex-layout.col#img-formulario", "contact-me"]
       },
@@ -55,19 +55,15 @@
       "flex-layout.col#img-formulario": {
         "title": "Corpo Formulario",
         "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "blockClass": ["container"],
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "colGap": "auto"
         },
         "children": [ "flex-layout.row#formulario-1", "flex-layout.row#formulario-2"]
-      },
-
-      "rich-text#titulo-formulario": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "blockClass": ["section-title-about"],
-          "text": "Formulário"
-        }
       }
+
+
 }

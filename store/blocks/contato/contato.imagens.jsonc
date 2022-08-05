@@ -3,9 +3,11 @@
     "flex-layout.row#formulario-1": {
         "title": "Corpo Formulario",
         "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "blockClass": ["container", "section-form-1"]
         },
         "children": [ "flex-layout.col#img-formulario-1", "flex-layout.col#img-formulario-2", "flex-layout.col#img-formulario-3"]
       },
@@ -13,19 +15,23 @@
       "flex-layout.row#formulario-2": {
         "title": "Corpo Formulario",
         "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "horizontalAlign": "left",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "blockClass": ["container", "section-form-2"]
         },
         "children": [ "flex-layout.col#img-formulario-4", "flex-layout.col#img-formulario-5", "flex-layout.col#img-formulario-6"]
       },
-      
+    
+    //img col
+
     "flex-layout.col#img-formulario-1": {
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-1", "rich-text#contato-1"]
       },
@@ -34,8 +40,8 @@
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-2", "rich-text#contato-2"]
       },
@@ -44,8 +50,8 @@
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-3", "rich-text#contato-3"]
       },
@@ -54,8 +60,8 @@
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-4", "rich-text#contato-4"]
       },
@@ -64,8 +70,8 @@
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-5", "rich-text#contato-5"]
       },
@@ -74,11 +80,13 @@
         "title": "Corpo Formulario",
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "blockClass": ["container", "section-title-about"]
+          "verticalAlign": "middle",
+          "blockClass": ["flex-contato"]
         },
         "children": ["image#contato-6", "rich-text#contato-6"]
       },
+
+    //img
 
     "image#contato-1":{
         "props": {
@@ -92,7 +100,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Acompanhe o seu pedido"
+          "text": "Acompanhe \n seu pedido"
         }
     },
 
@@ -108,7 +116,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Dúvidas Frequentes"
+          "text": "Dúvidas \n Frequentes"
         }
     },
 
@@ -124,7 +132,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Troca de Devolução"
+          "text": "Troca e \n Devolução"
         }
     },
 
@@ -140,7 +148,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Fale pelo WhatsApp"
+          "text": "Fale pelo \n WhatsApp"
         }
     },
 
@@ -156,7 +164,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Fale por e-mail"
+          "text": "Fale por \n e-mail"
         }
     },
     
@@ -172,7 +180,7 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": ["section-contato"],
-          "text": "Devolução e reembolso"
+          "text": "Devolução e \nreembolso"
         }
     }
 
