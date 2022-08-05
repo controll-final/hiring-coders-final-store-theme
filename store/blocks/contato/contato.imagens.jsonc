@@ -51,7 +51,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "middle",
-          "blockClass": ["flex-contato"]
+          "blockClass": ["flex-contato-p"]
         },
         "children": ["image#contato-3", "rich-text#contato-3"]
       },
@@ -81,7 +81,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "middle",
-          "blockClass": ["flex-contato"]
+          "blockClass": ["flex-contato-p"]
         },
         "children": ["image#contato-6", "rich-text#contato-6"]
       },
