@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#footer-2-mobile",
-      "flex-layout.row#footer-3-mobile"
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-4-mobile"
     ]
   },
   "image#logo-hc": {
@@ -24,13 +25,13 @@
   "link#link-1": {
     "props": {
       "href": "/quem-somos",
-      "label": "Quem somos",
+      "label": "Sobre Nós",
       "blockClass": ["link-footer"]
     }
   },
   "link#link-3": {
     "props": {
-      "href": "#",
+      "href": "/politica-de-privacidade",
       "label": "Política de Privacidade",
       "blockClass": ["link-footer"]
     }
@@ -52,10 +53,56 @@
   "link#link-6": {
     "props": {
       "href": "/contato",
-      "label": "Contato",
+      "label": "Fale Conosco",
       "blockClass": ["link-footer"]
     }
   },
+
+  "link#menu-1": {
+    "props": {
+      "href": "/feminino",
+      "label": "Feminino",
+      "blockClass": ["link-footer"]
+    }
+  },
+
+  "link#menu-2": {
+    "props": {
+      "href": "/masculino",
+      "label": "Masculino",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-3": {
+    "props": {
+      "href": "/infantil",
+      "label": "Infantil",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-4": {
+    "props": {
+      "href": "/148?map=productClusterIds",
+      "label": "Acessórios",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-5": {
+    "props": {
+      "href": "/146?map=productClusterIds",
+      "label": "Novidades",
+      "blockClass": ["link-footer"]
+    }
+  },
+  "link#menu-6": {
+    "props": {
+      "href": "/145?map=productClusterIds",
+      "label": "Ofertas",
+      "blockClass": ["link-footer"]
+    }
+  },
+
+
   "rich-text#siga-nos": {
     "props": {
       "textAlignment": "LEFT",
@@ -67,6 +114,7 @@
   "social-networks": {
     "props": {
       "showInColor": false,
+      "blockClass": ["img-footer"],
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -106,8 +154,8 @@
   },
   "image#logo-vtex": {
     "props": {
-      "blockClass": ["logo-footer"],
-      "width": 130,
+      "blockClass": ["logo-vtex-footer"],
+      "width": 121,
       "height": 40,
       "url": "#",
       "src": "assets/images/logo/logo_vtex.png"
@@ -115,7 +163,7 @@
   },
   "image#logo-gama": {
     "props": {
-      "blockClass": ["logo-footer"],
+      "blockClass": ["logo-gama-footer"],
       "width": 180,
       "height": 40,
       "url": "#",

@@ -1,3 +1,23 @@
 .imageElement--logo-footer {
   margin: 8px 0;
+ 
+},
+
+
+
+@media screen and (max-width: 768px) {
+  .imageElement--logo-footer {
+    max-width: 120px !important;
+    max-height: 36px !important;
+   
+  }
+  .imageElement--logo-marcas-footer {
+    margin-top: -20px;
+    max-width: 52px !important;
+    max-height: 16px !important;
+    
+  }
+ 
+
 }
+

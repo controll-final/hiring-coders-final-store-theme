@@ -5,6 +5,18 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
+  margin-top: 8px;
+  margin-right: 5px;
 
-  margin: 0;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph--text-footer{
+    font-size: 10px;
+
+  }
+ 
+ 
+
 }

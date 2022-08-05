@@ -11,6 +11,7 @@
       "preserveLayoutOnMobile": true,
       "marginTop": 6,
       "marginBottom": 6
+      
     },
     "children": [
       "flex-layout.col#links-1-mobile",
@@ -18,26 +19,61 @@
     ]
   },
   "flex-layout.col#links-1-mobile": {
-    "children": ["link#link-1", "link#link-3"]
+    "children": ["link#link-1", "link#link-3","link#link-4", "link#link-5", "link#link-6"]
   },
   "flex-layout.col#links-2-mobile": {
-    "children": ["link#link-4", "link#link-5", "link#link-6"]
+    "children": ["link#menu-1","link#menu-2","link#menu-3","link#menu-4","link#menu-5","link#menu-6"]
   },
   "flex-layout.row#footer-3-mobile": {
     "props": {
-      "preserveLayoutOnMobile": true
+      "fullWidth": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left"
+      
     },
-    "children": ["flex-layout.col#footer-3-1-mobile", "flex-layout.col#footer-3-2-mobile"]
+    "children": ["flex-layout.row#footer-3-1-mobile"]
   },
-  "flex-layout.col#footer-3-1-mobile": {
+ 
+  
+  "flex-layout.row#footer-3-1-mobile": {
+    "props":{
+      "blockClass": ["social--footer"],
+      "colSizing": "equal"
+      
+    },
     "children": [
       "rich-text#siga-nos",
-      "social-networks",
+      "social-networks"
+      
+    ]
+  },
+  "flex-layout.row#footer-4-mobile": {
+    "props": {
+      "blockClass": ["social--footer"],
+      "fullWidth": false,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "left"
+      
+    },
+    "children": ["flex-layout.row#footer-4-1-mobile"]
+  },
+  "flex-layout.row#footer-4-1-mobile": {
+    "children": [
       "rich-text#pague-com",
       "accepted-payment-methods"
     ]
   },
-  "flex-layout.col#footer-3-2-mobile": {
+  "flex-layout.row#footer-5-mobile": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.row#footer-4-1-mobile"]
+  },
+  "flex-layout.row#footer-5-1-mobile": {
     "children": ["rich-text#realizacao", "image#logo-vtex", "image#logo-gama"]
   }
+
+  
+
 }
