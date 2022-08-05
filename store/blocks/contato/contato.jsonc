@@ -59,8 +59,8 @@
           "verticalAlign": "middle",
           "blockClass": ["container"],
           "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "colGap": "auto"
+          "preventVerticalStretch": true
+          
         },
         "children": [ "flex-layout.row#formulario-1", "flex-layout.row#formulario-2"]
       }

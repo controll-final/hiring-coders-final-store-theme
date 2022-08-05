@@ -7,3 +7,35 @@
 .flexCol--flex-contato {
     padding-right: 50px;
 }
+
+.flexRowContent--section-form-1 {
+    margin-left: 10px;
+}
+
+.flexRowContent--section-form-2 {
+    margin-top: 63px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+    .flexCol--flex-contato {
+        padding-right: 7.5vw;
+        margin-left: 3vw;
+        display:flex;
+        align-items: inline;
+    }
+    
+    .flexRowContent--section-form-1 {
+        margin-left: 0;
+        display:flex;
+        align-items: inline;
+    }
+    
+    .flexRowContent--section-form-2 {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+        display:flex;
+        align-items: inline;
+    }
+}
