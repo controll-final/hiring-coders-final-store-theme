@@ -28,17 +28,17 @@
       "showNavigationArrows": "never",
       "showPaginationDots": "mobileOnly",
       "slideTransition": {
-        "speed": 1500,
+        "speed": 2000,
         "delay": 0,
         "timing": "ease-in"
       },
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 3,
+        "tablet": 4,
         "phone": 3
       },
       "autoplay": {
-        "timeout": 3000
+        "timeout": 4000
       },
       "blockClass": ["container-marcas"]
     },
