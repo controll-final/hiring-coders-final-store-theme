@@ -5,6 +5,9 @@
 
   "store.custom#contato": {
     "path": "/contato"
-  }
+  },
 
+  "store.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  }
 }

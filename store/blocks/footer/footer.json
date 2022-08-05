@@ -30,7 +30,7 @@
   },
   "link#link-3": {
     "props": {
-      "href": "#",
+      "href": "/politica-de-privacidade",
       "label": "Política de Privacidade",
       "blockClass": ["link-footer"]
     }
