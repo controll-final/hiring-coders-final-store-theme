@@ -1,0 +1,64 @@
+{
+    "store.custom#politica-de-troca":{
+        "blocks": [
+            "responsive-layout.desktop#troca",
+            "responsive-layout.mobile#troca"
+          ]
+    },
+
+    "responsive-layout.desktop#troca": {
+        "children": [
+            "flex-layout.row#titulo-troca",
+            "flex-layout.row#corpo-troca"]
+    },
+    
+    "responsive-layout.mobile#troca": {
+        "children": [
+            "flex-layout.row#titulo-troca",
+            "flex-layout.row#corpo-troca"
+         ]
+    },
+
+    "flex-layout.row#titulo-troca": {
+        "title": "Título Politica de Troca",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["rich-text#titulo-troca"]
+    },
+
+    "flex-layout.row#corpo-troca": {
+        "title": "Corpo Politica de Troca",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["flex-layout.col#corpo-troca"]
+    },
+
+    "flex-layout.col#corpo-troca": {
+        "title": "Título Politica de Troca",
+        "props": {
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": [
+             "rich-text#titulo-recebimento", "rich-text#texto-recebimento",
+             "rich-text#titulo-troca-devolucao", "rich-text#texto-troca-devolucao",
+             "rich-text#titulo-restituicao", "rich-text#texto-restituicao"]
+    },
+
+    "rich-text#titulo-troca": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica-main"],
+          "text": "Política de Troca e Devolução"
+        }
+    }
+
+}

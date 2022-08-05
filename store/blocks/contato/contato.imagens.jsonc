@@ -133,7 +133,7 @@
           "blockClass": "img-contato",
           "src": "assets/images/banner/beeincontroll-img-troca.png",
           "link":{
-            "url": "/contato",
+            "url": "/politica-de-troca",
             "newTab": true
           }
         }
@@ -193,7 +193,7 @@
           "blockClass": "img-contato",
           "src": "assets/images/banner/beeincontroll-img-devolucao.png",
           "link":{
-            "url": "/contato",
+            "url": "/politica-de-troca",
             "newTab": true
           }
         }
