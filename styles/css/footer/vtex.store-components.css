@@ -1,3 +1,31 @@
 .imageElement--logo-footer {
   margin: 8px 0;
+ 
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .imageElement--logo-footer {
+    max-width: 120px !important;
+    max-height: 36px !important;
+   
+  }
+  .imageElement--logo-vtex-footer {
+    margin-top: 0;
+    max-width: 52px;
+    max-height: 16px;
+  
+    
+  }
+ 
+  .imageElement--logo-gama-footer {
+    margin-top: 0;
+    padding: 0;
+    width: 87px !important;
+    height: 21px !important;
+    
+  }
+
+}
+

@@ -5,6 +5,40 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
+  margin-top: 8px;
+}  
+  .paragraph--copy-footer{
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    /* font-size: 8px;
+    margin-top: 8px;
+    margin-left: 0; */
+ }
+ 
+}
 
-  margin: 0;
+@media screen and (max-width: 768px) {
+  .paragraph--text-footer{
+    font-size: 10px;
+    align-content: center;
+    width: 100%;
+    margin-right: 15px;
+
+  }
+
+ .paragraph--copy-footer{
+    
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 8px;
+    margin-top: 8px;
+    margin-left: 0;
+ }
+
 }

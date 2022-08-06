@@ -20,9 +20,14 @@
 .socialNetworkImage,
 .paymentMethodIconImage{
   filter: brightness(100);
+  margin-top: 11px;
+  
+
+ 
 }
 .rich-text{
   color: #fff;
+  
 }
 
 .footerLayoutSpacer{
@@ -32,8 +37,34 @@
 .socialNetworkWrapper,
 .acceptedPaymentMethodContainer {
   margin-top: -12px;
+  
+  
 }
 
 .footerLayout {
-  padding: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 468px) {
+  .socialNetworkImage
+  .paymentMethodIconImage{
+    margin-top: 4px;
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .socialNetwork--img-footer{
+    width: 20px !important;
+
+  } 
+
+  .socialNetworkLink--img-footer{
+    width: 20px !important;
+  }
+
+  .footerLayout {
+    padding-left: 0;
+  }
+
 }
