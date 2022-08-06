@@ -79,6 +79,18 @@
             "href": "/145?map=productClusterIds",
             "text": "Ofertas"
           }
+        },
+        {
+          "id": "menu-item-category-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "0",
+            "type": "internal",
+            "href": "/153?map=productClusterIds",
+            "text": "Dia dos Pais"
+          }
         }
       ]
     }
