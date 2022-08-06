@@ -16,7 +16,7 @@
   width: 170px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
     .container--title-fale-conosco {
         margin-top: 15px;
         margin-bottom: 20px;
@@ -35,5 +35,25 @@
         width: 100px;
       }
 
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .container--title-fale-conosco {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.paragraph--section-contato {
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #4D4D4D;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 80px;
+  }
 }
    

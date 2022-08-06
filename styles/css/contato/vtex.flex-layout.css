@@ -8,6 +8,10 @@
     padding-right: 50px;
 }
 
+.flexCol--flex-contato-p {
+    padding-right: 50px;
+}
+
 .flexRowContent--section-form-1 {
     margin-left: 10px;
 }
@@ -17,9 +21,16 @@
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
     .flexCol--flex-contato {
-        padding-right: 7.5vw;
+        padding-right: 6vw;
+        margin-left: 5vw;
+        display:flex;
+        align-items: inline;
+    }
+
+    .flexCol--flex-contato-p {
+        padding-right: 0;
         margin-left: 3vw;
         display:flex;
         align-items: inline;

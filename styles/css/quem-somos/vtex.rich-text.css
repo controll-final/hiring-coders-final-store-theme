@@ -60,7 +60,8 @@
     color: #4D4D4D;
     font-size: 22px;
     line-height: 29.11px;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 20px;
     margin-bottom: 5px;
   }
@@ -75,6 +76,8 @@
     font-size: 22px;
     line-height: 29.11px;
     margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .paragraph--texto-quem-somos {
@@ -88,6 +91,8 @@
     line-height: 18.52px;
     margin-top: 15px;
     margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .paragraph--texto-historia {
@@ -101,7 +106,66 @@
     line-height: 18.52px;
     margin-top: 15px;
     margin-bottom: -30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
+}
+
+@media (min-width: 800px) and (max-width: 1180px) {
+  .paragraph--section-title-about{
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #4D4D4D;
+    font-size: 27px;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+
+  .paragraph--section-title-about-valores{
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #4D4D4D;
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .paragraph--texto-quem-somos {
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #4D4D4D;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+  .paragraph--texto-historia {
+    font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+      sans-serif;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #4D4D4D;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: -30px;
+    padding: 10px;
+  }
 }
 

@@ -1,0 +1,172 @@
+{
+    "rich-text#titulo-coleta": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Coleta e uso de informações pessoais"
+        }
+    },
+    
+    "rich-text#texto-coleta": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Qualquer informação pessoal, ou não, fornecida por você será coletada e guardada de acordo com os mais rígidos padrões de segurança e confiabilidade. Você será avisado que os seus dados estão sendo coletados, ficando a seu exclusivo critério fornecê-los ou não, e será informado também sobre as consequências de sua decisão. As informações pessoais, são dados que podem ser usados para identificar ou entrar em contato com uma única pessoa. Pode ser solicitado que você forneça suas informações pessoais a qualquer momento que esteja em contato com a BEE IN CONTROLL ou com uma empresa afiliada da através do site ou por telefone. Não é obrigatório que você forneça as informações pessoais que solicitamos, mas, caso escolha não compartilhar conosco, em muitos casos, não poderemos oferecer a você nossos produtos e serviços ou responder a suas dúvidas. Nesse tópico você encontrará alguns exemplos dos tipos de informações pessoais que a Bee in Controll pode coletar e como poderemos usá-las.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-sistema-da-informacao": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Segurança da Informação"
+        }
+    },
+
+    "rich-text#texto-sistema-da-informacao": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Com o objetivo de garantir que todos os dados pessoais dos clientes não sejam divulgados, todas as transações de pagamento são executadas com a tecnologia SSL (Secure Socket Layer). Essa tecnologia visa impedir que as informações sejam transmitidas ou acessadas por terceiros. Ainda visando garantir a confidencialidade de nossos clientes, todas informações pessoais fornecidas no momento do cadastro são armazenadas e criptografadas. Além disso, nossos sistemas web e internos possuem dispositivos contra invasão.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-informacoes-coletadas": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Quais informações pessoais coletamos?"
+        }
+    },
+
+    "rich-text#texto-informacoes-coletadas": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Quando você cria um cadastro na, compra um produto, entra em contato conosco ou participa de uma pesquisa online, podemos coletar várias informações, incluindo seu nome, data de nascimento, endereço de correspondência, número de telefone, endereço de e-mail, preferências de contato e informações de cartão de crédito e também documentos de identificação.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-uso-informacao": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Como usamos suas informações pessoais?"
+        }
+    },
+
+    "rich-text#texto-uso-informacao": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Usamos as informações pessoais para criar, desenvolver, operar e melhorar nossos produtos, serviços, conteúdo e publicidade, além de prevenir perdas e evitar fraudes. Podemos usar suas informações pessoais, incluindo data de nascimento, para confirmar sua identidade, ajudar na identificação de usuários e determinar serviços adequados. De tempos em tempos, podemos usar suas informações pessoais para enviar avisos importantes, como comunicações sobre compras e alterações em nossos termos, condições e normas. Como essas informações são importantes para sua interação com a, você não pode optar por não receber as comunicações. Podemos também usar informações pessoais para propósitos internos, como auditoria, análise de dados e pesquisa para melhorar os produtos, os serviços e as comunicações para o cliente. Se você entrar em um sorteio, competição ou promoção similar, poderemos usar as informações que você forneceu para administrar esses programas.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+    
+    "rich-text#titulo-uso-info-n-pessoal": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Coleta e uso de informações não pessoais"
+        }
+    },
+
+    "rich-text#texto-uso-info-n-pessoal": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Também coletamos dados que, analisados independentemente, não permitem a associação direta a um indivíduo específico. Podemos coletar, usar, transferir e revelar informações não pessoais para qualquer propósito. A seguir estão alguns exemplos de informações não pessoais que coletamos e como podemos usá-las. Podemos coletar informações como ocupação, idioma, código postal, código de área, identificador único de dispositivo, URL de referência e localização. Essas informações são agregadas e usadas para nos ajudar a fornecer informações mais úteis para nossos clientes e para entender quais partes de nosso site, produtos e serviços são de maior interesse. Dados agregados são considerados informações não pessoais para os propósitos desta Política de Privacidade. Podemos coletar e armazenar detalhes sobre como você usa nossos serviços, incluindo buscas. Essas informações podem ser usadas para melhorar a relevância dos resultados oferecidos por nossos serviços. Se juntarmos as informações não pessoais com informações pessoais, as informações combinadas serão tratadas como informações pessoais enquanto permanecerem combinadas.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-cookies": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Cookies e outras tecnologias"
+        }
+    },
+
+    "rich-text#texto-cookies": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Os sites, as mensagens por e-mail e as propagandas da podem usar cookies e outras tecnologias. Essas tecnologias nos ajudam a entender melhor o comportamento dos usuários e contribuir para a eficácia das propagandas e pesquisas na web. Tratamos as informações coletadas por cookies e outras tecnologias como informações pessoais.\n O que é um Cookie? Pequeno arquivo colocado em seu computador para rastrear movimentos dentro dos websites como visita a páginas e anúncios. Cookies não armazenam informações pessoais sem que você as tenha fornecido e não coletam informações registradas em seu computador.\n Assim como acontece na maioria dos serviços da Internet, coletamos algumas informações automaticamente e as armazenamos em arquivos de log. Essas informações incluem endereços do Protocolo da Internet (IP), tipo de navegador e idioma, provedor de Internet, sites e aplicativos de encaminhamento e saída, sistema operacional, marcação de data/hora e dados de sequência de cliques (clickstream). Usamos essas informações para entender e analisar tendências, administrar o site, aprender sobre o comportamento do usuário no site melhorar nossos produtos e serviços e coletar informações demográficas sobre nossa base de usuários como um todo. A pode usar essas informações em nossos serviços de marketing e propagandas. Caso o usuário queira suspender a utilização das informações cadastrais respectivas, deve manifestar seu interesse enviando uma mensagem eletrônica (e-mail). Pode ser necessário - por lei, processo legal, litígio e/ou solicitações de autoridades públicas e governamentais dentro ou fora de seu país de residência - que a revele suas informações pessoais. Também podemos revelar informações sobre você se determinarmos que a revelação é razoavelmente necessária para impor nossos termos e condições ou proteger nossas operações ou usuários. Além disso, no caso de uma reorganização, fusão ou venda, poderemos transferir qualquer e todas as informações pessoais que coletamos a terceiros relevantes.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-utilizacao-info": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Utilização das informações"
+        }
+    },
+
+    "rich-text#texto-utilizacao-info": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "O usuário declara ter ciência e concordar que o site poderá utilizar as informações adquiridas para propósitos gerais, tais como:\n(a) Possibilitar a interação entre usuário cliente e usuário administrador;\n(b) Comunicação de novos eventos;\n(c) Manter atualizados os cadastros dos usuários para fins de contato;\n(d) Aprimorar a usabilidade e a interação durante a navegação do usuário no site;\n(e) Elaborar métricas gerais, preservando o anonimato;\n(f) Garantir a segurança dos visitantes sanar eventuais dúvidas ou solicitações;\n(g) Constituir, defender ou exercer regularmente direitos em âmbito judicial ou administrativo;\n(h) Realizar pesquisas e campanhas de comunicação e marketing de relacionamento, bem como divulgar ofertas de parceiros.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-protecao-info": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Proteção de informações pessoais"
+        }
+    },
+
+    "rich-text#texto-protecao-info": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "As informações coletadas na serão armazenadas e manipuladas em ambiente seguro e íntegro. É de livre e espontânea vontade do usuário do site o fornecimento das informações solicitadas. Todas as informações coletadas dos usuários trafegam de forma segura, utilizando processo de criptografia padrão da Internet. Estas informações podem ser retificadas a qualquer momento pelo Cliente, bastando para isso manifestar o interesse através dos canais de relacionamento disponíveis. São eles: Central de Atendimento via e-mail. A permite que você mantenha facilmente suas informações pessoais precisas, completas e atualizadas. Reteremos suas informações pessoais pelo período necessário para satisfazer as finalidades descritas nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-info-terceiros": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Sites e serviços de terceiros"
+        }
+    },
+
+    "rich-text#texto-info-terceiros": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Sites, produtos e serviços da podem conter links para sites, produtos e serviços de terceiros. Informações coletadas por terceiros, que podem incluir dados de localização ou informações para contato, são regidas pelas práticas de privacidade. Incentivamos você a conhecer as práticas de privacidade desses terceiros. A pode atualizar sua Política de Privacidade de tempos em tempos, conforme a necessidade. Para fins operacionais de crédito e gerenciamento de riscos, poderemos trocar informações sobre nossos clientes com fontes respeitáveis de referência, órgãos reguladores e serviços de compensação.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    }
+}

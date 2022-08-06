@@ -1,0 +1,77 @@
+{
+    "store.custom#termo-de-uso":{
+        "blocks": [
+            "responsive-layout.desktop#termo",
+            "responsive-layout.mobile#termo"
+          ]
+    },
+
+    "responsive-layout.desktop#termo": {
+        "children": [
+            "flex-layout.row#titulo-termo",
+            "flex-layout.row#corpo-termo"]
+    },
+    
+    "responsive-layout.mobile#termo": {
+        "children": [
+            "flex-layout.row#titulo-termo",
+            "flex-layout.row#corpo-termo"
+         ]
+    },
+
+    "flex-layout.row#titulo-termo": {
+        "title": "Título termos de uso",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["rich-text#titulo-termo"]
+    },
+
+    "flex-layout.row#corpo-termo": {
+        "title": "Título termos de uso",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["flex-layout.col#corpo-termo"]
+    },
+
+    "flex-layout.col#corpo-termo": {
+        "title": "Título termos de uso",
+        "props": {
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": [
+             "rich-text#titulo-termos-condicoes", "rich-text#texto-termos-condicoes",
+             "rich-text#titulo-termos-cadastro", "rich-text#texto-termos-cadastro",
+             "rich-text#titulo-termos-cor", "rich-text#texto-termos-cor",
+             "rich-text#titulo-termos-preco", "rich-text#texto-termos-preco",
+             "rich-text#titulo-termos-garantia", "rich-text#texto-termos-garantia",
+             "rich-text#titulo-termos-conferencia", "rich-text#texto-termos-conferencia",
+             "rich-text#titulo-termos-recurso-avaliacao", "rich-text#texto-termos-recurso-avaliacao",
+             "rich-text#titulo-termos-protect-login", "rich-text#texto-termos-protect-login",
+             "rich-text#titulo-termos-pagamento", "rich-text#texto-termos-pagamento",
+             "rich-text#titulo-termos-frete", "rich-text#texto-termos-frete",
+             "rich-text#titulo-termos-recebimento", "rich-text#texto-termos-recebimento",
+             "rich-text#titulo-termos-acompanhe", "rich-text#texto-termos-acompanhe",
+             "rich-text#titulo-termos-atraso", "rich-text#texto-termos-atraso",
+             "rich-text#titulo-termos-nfe", "rich-text#texto-termos-nfe",
+             "rich-text#titulo-termos-alteracoes", "rich-text#texto-termos-alteracoes"]
+    },
+    
+    "rich-text#titulo-termo": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica-main"],
+          "text": "Termos de Uso"
+        }
+    }
+
+
+}

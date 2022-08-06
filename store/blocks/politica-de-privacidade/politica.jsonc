@@ -1,0 +1,70 @@
+{
+    "store.custom#politica-de-privacidade":{
+        "blocks": [
+            "responsive-layout.desktop#politica",
+            "responsive-layout.mobile#politica"
+          ]
+    },
+
+    "responsive-layout.desktop#politica": {
+        "children": [
+            "flex-layout.row#titulo-politica",
+            "flex-layout.row#corpo-politica"]
+    },
+    
+    "responsive-layout.mobile#politica": {
+        "children": [
+            "flex-layout.row#titulo-politica",
+            "flex-layout.row#corpo-politica"
+         ]
+    },
+
+    "flex-layout.row#titulo-politica": {
+        "title": "Título Politica de Privacidade",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["rich-text#titulo-politica"]
+    },
+
+    "flex-layout.row#corpo-politica": {
+        "title": "Título Politica de Privacidade",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": ["flex-layout.col#corpo-politica"]
+    },
+
+    "flex-layout.col#corpo-politica": {
+        "title": "Título Politica de Privacidade",
+        "props": {
+          "horizontalAlign": "left",
+          "verticalAlign": "middle",
+          "blockClass": ["container", "section-title-about"]
+        },
+        "children": [
+             "rich-text#titulo-coleta", "rich-text#texto-coleta",
+             "rich-text#titulo-sistema-da-informacao", "rich-text#texto-sistema-da-informacao", "rich-text#titulo-informacoes-coletadas", "rich-text#texto-informacoes-coletadas",
+             "rich-text#titulo-uso-informacao", "rich-text#texto-uso-informacao",
+             "rich-text#titulo-uso-info-n-pessoal", "rich-text#texto-uso-info-n-pessoal",
+             "rich-text#titulo-cookies", "rich-text#texto-cookies",
+             "rich-text#titulo-utilizacao-info", "rich-text#texto-utilizacao-info",
+             "rich-text#titulo-protecao-info", "rich-text#texto-protecao-info",
+             "rich-text#titulo-info-terceiros", "rich-text#texto-info-terceiros"]
+    },
+
+    "rich-text#titulo-politica": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica-main"],
+          "text": "Política de Privacidade"
+        }
+    }
+
+
+}

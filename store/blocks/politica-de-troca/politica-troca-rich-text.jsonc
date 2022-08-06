@@ -1,0 +1,60 @@
+{
+    "rich-text#titulo-recebimento": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Recebimento dos produtos"
+        }
+    },
+    
+    "rich-text#texto-recebimento": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Todos os detalhes, especificações, atributos, modelos, limitações de uso e etc. são previamente determinados pela Bee in Controll, que comercializa e envia os produtos aos clientes exatamente como os recebe da fábrica. Portanto, fique atento e confira o produto no ato da entrega. O Cliente ou pessoa responsável pelo recebimento do produto deve, antes de assinar o recebimento do(s) produto(s), verificar de modo rigoroso, na presença do entregador, os seguintes itens: \nSe o produto está em desacordo com o pedido: conferir a descrição exata do produto (modelo, numeração e todas as características da mercadoria adquirida);\nSe embalagem está aberta ou avariada;\nSe o produto está avariado (rasgado, amassado, arranhado, trincado, quebrado);\nSe falta algum dos acessórios pertencentes ao produto (se houver);\n\n*Observação*: alguns produtos podem apresentar variação de tonalidade entre a foto constante no site e o produto físico, sendo a foto no site meramente ilustrativa. Caso rerceba a existência de algum dos itens acima, é necessário que tome as seguintes providências:\nA) Recuse o produto\nB) Não assine o canhoto de recebimento;\nC) Coloque uma observação no verso da Nota Fiscal e no verso do Comprovante de entrega do transportador, explicando o motivo da recusa;\nD) Comunique o fato à Central de Relacionamento com o Cliente, através:\nE-mail: beeincontroll@gmail.com\nHorário de atendimento: de Segunda à Sexta das 8:00 às 18:00 – Sábado das 8:00 às 13:00. Exceto aos feriados.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+    },
+
+    "rich-text#titulo-troca-devolucao": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": ["section-title-politica"],
+        "text": "Troca e Devolução"
+      }
+  },
+  
+  "rich-text#texto-troca-devolucao": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Todas as ocorrências que envolvem troca ou devolução dos produtos adquiridos através de venda online, devem ser feitas no prazo de até 7 (sete) dias nos casos de arrependimento de compra ou desistência, sempre a contar da data do recebimento do produto. Conforme detalhado abaixo:\n*B.1) Defeito técnico ou de fabricação*\nCaso identificado defeito técnico ou de fabricação, o prazo para solicitação de troca/devolução é de até 7 (sete) dias corridos, contando da data do recebimento do produto. Caso o prazo seja superior ao informado acima, o Cliente deverá entrar em contato com a Assistência Técnica do Fabricante, respeitando o prazo de garantia informado pelo fabricante.\n*B.2) Arrependimento de compra ou desistência*\nEm cumprimento ao que dispõe o artigo 49 do Código de Defesa do Consumidor, o prazo para manifestar a insatisfação e o arrependimento em relação ao bem adquirido é de no máximo 7 (sete) dias corridos a contar do ato de recebimento do produto.\nAs desistências serão aceitas pela Bee in Controll, desde que você tome as seguintes providências:\n  A) Comunicar, no prazo de 7 (sete) dias do recebimento à Central de Relacionamento com o Cliente sua manifestação de desistência:\nE-mail: beeincontroll@gmail.com\n   B) Certificar-se que o produto não tenha sido utilizado;\n  C) Garantir que o produto esteja dentro da sua embalagem original (interna e externa), contendo manual/acessórios;\n  D) Anexar o DANFE (Documento Auxiliar da Nota Fiscal Eletrônica).\nNo momento do contato, será gerado um código de postagem para que você efetue o envio do produto através de qualquer agência dos correios, sem custos de postagem. Após retorno do produto ao nosso estoque (o prazo varia de acordo com a região de onde a devolução está sendo realizada), efetuaremos o envio do novo item, ou o ressarcimento do valor pago, de acordo com a solicitação do cliente, mediante a certificação das condições do produto recebido. Caso o produto para troca já não esteja mais disponível no momento da solicitação, a Bee in Controll se reserva ao direito de negociar com o cliente o crédito para nova compra ou cancelamento e restituição do valor pago pelo produto.\n\n*Atenção*: A Bee in Controll está isenta de aceitar a solicitação e devolverá o produto ao seu endereço de entrega sem a restituição dos valores pagos quando apresentar algum dos pontos abaixo: \n  A) O produto for devolvido sem a devida comunicação à Central de Relacionamento com o Cliente;\n  B) Desenvolvido fora do prazo de 7 (sete) dias contados da data do recebimento;\n C) Constatado qualquer divergência entre o produto comprado e o devolvido;\n  D) Apresentar indícios de uso e/ou mau uso;\n E) Houver ausência do manual e acessórios (se houver);\n  F) Não estiver acompanhado do DANFE (Documento Auxiliar da Nota Fiscal Eletrônica).\n\nSeguem abaixo os procedimentos para envio do produto à Bee in Controll:\nComunicar, no prazo de 07 (sete) dias do recebimento à Central de Relacionamento com o Cliente sua manifestação de desistência:\nE-mail: beeincontroll@gmail.com\nHorário de atendimento: de Segunda à Sexta das 8:00 às 18:00 – Sábado das 8:00 às 13:00. Exceto aos feriados.\nAnexar o DANFE (Documento Auxiliar da Nota Fiscal Eletrônica).\nPara a análise do produto, será gerado um código de postagem para que você efetue o envio do produto através de qualquer agência dos correios, sem custos de postagem.\nApós o recebimento do produto ao nosso estoque (o prazo pode variar de acordo com a região de onde a devolução está sendo realizada), efetuaremos a análise e no prazo de até 30 dias (a contar da data do recebimento da mercadoria na Bee in Controll, orientaremos sobre quais providências serão tomadas. O parágrafo primeiro do artigo 18 do CDC confere o direito ao fabricante de sanar o vício de fabricação (se houver) no prazo de 30 dias.",
+        "horizontalAlign": "left",
+        "blockClass": "texto-politica"
+      }
+  },
+
+  "rich-text#titulo-restituicao": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Restituição de valores"
+    }
+  },
+
+  "rich-text#texto-restituicao": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "A Bee in Controll providenciará a restituição ao cliente após recebimento do volume recusado ou devolvido em nosso estoque, mediante a certificação das condições do produto recebido.\nSe o pedido não for autorizado pela operadora do Cartão de Crédito, será cancelado automaticamente, não havendo neste caso restituição de valores.\nCaso a solicitação de desistência ocorra com o pedido já enviado à Transportadora, o cliente deve recusar o recebimento e após o retorno do produto em nosso estoque, conforme regras descritas acima, entraremos em contato para prestar informações sobre restituição do valor pago.\nA devolução de valores ocorrerá de acordo com a forma de pagamento. Em até 10 dias, após o recebimento do produto em nossos estoques, você receberá um e-mail para solicitar a devolução do valor pago, confira abaixo as formas e prazos para a devolução:\nBoleto bancário: O valor será devolvido em conta corrente ou poupança em nome do titular da compra.\nO prazo para o depósito é de até 7 (sete) dias úteis após o recebimento de todas as informações necessárias.\nCartão de Crédito: a restituição, através de estorno do valor em fatura, poderá ocorrer em até duas faturas subsequentes a data de solicitação de cancelamento.\nAtravés de nossa Central de Atendimento, você poderá solicitar a devolução",
+        "horizontalAlign": "left",
+        "blockClass": "texto-politica"
+      }
+  }
+
+   
+}

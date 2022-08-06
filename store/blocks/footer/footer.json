@@ -39,14 +39,14 @@
   },
   "link#link-4": {
     "props": {
-      "href": "#",
+      "href": "/termos-de-uso",
       "label": "Termos de Uso",
       "blockClass": ["link-footer"]
     }
   },
   "link#link-5": {
     "props": {
-      "href": "#",
+      "href": "/politica-de-troca",
       "label": "Política de Troca",
       "blockClass": ["link-footer"]
     }

@@ -51,7 +51,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "middle",
-          "blockClass": ["flex-contato"]
+          "blockClass": ["flex-contato-p"]
         },
         "children": ["image#contato-3", "rich-text#contato-3"]
       },
@@ -81,7 +81,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "middle",
-          "blockClass": ["flex-contato"]
+          "blockClass": ["flex-contato-p"]
         },
         "children": ["image#contato-6", "rich-text#contato-6"]
       },
@@ -91,7 +91,11 @@
     "image#contato-1":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-acompanhe.png"
+          "src": "assets/images/banner/beeincontroll-img-acompanhe.png",
+          "link":{
+            "url": "/account#/orders",
+            "newTab": true
+          }
         }
     },
 
@@ -107,7 +111,11 @@
     "image#contato-2":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-duvida.png"
+          "src": "assets/images/banner/beeincontroll-img-duvida.png",
+          "link":{
+            "url": "/quem-somos",
+            "newTab": true
+          }
         }
     },
 
@@ -123,7 +131,11 @@
     "image#contato-3":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-troca.png"
+          "src": "assets/images/banner/beeincontroll-img-troca.png",
+          "link":{
+            "url": "/politica-de-troca",
+            "newTab": true
+          }
         }
     },
 
@@ -139,7 +151,11 @@
     "image#contato-4":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-whatsapp.png"
+          "src": "assets/images/banner/beeincontroll-img-whatsapp.png",
+          "link":{
+            "url": "https://api.whatsapp.com/send/?phone=55629999999&text&type=phone_number&app_absent=0",
+            "newTab": true
+          }
         }
     },
 
@@ -155,7 +171,11 @@
     "image#contato-5":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-email.png"
+          "src": "assets/images/banner/beeincontroll-img-email.png",
+          "link":{
+            "url": "mailto:beeincontroll@gmail.com? Subject: Contato",
+            "newTab": true
+          }
         }
     },
 
@@ -171,7 +191,11 @@
     "image#contato-6":{
         "props": {
           "blockClass": "img-contato",
-          "src": "assets/images/banner/beeincontroll-img-devolucao.png"
+          "src": "assets/images/banner/beeincontroll-img-devolucao.png",
+          "link":{
+            "url": "/politica-de-troca",
+            "newTab": true
+          }
         }
     },
 
