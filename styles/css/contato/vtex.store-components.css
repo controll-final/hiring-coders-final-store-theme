@@ -6,7 +6,7 @@
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
     .imageElement--img-contato {
         max-width: 50px;
         max-height: 50px;
