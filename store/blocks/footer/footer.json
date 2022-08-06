@@ -37,7 +37,7 @@
   },
   "link#link-4": {
     "props": {
-      "href": "#",
+      "href": "/termos-de-uso",
       "label": "Termos de Uso",
       "blockClass": ["link-footer"]
     }

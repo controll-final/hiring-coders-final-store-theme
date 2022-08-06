@@ -1,0 +1,286 @@
+{
+  "rich-text#titulo-termos-condicoes": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Termos e condições de uso do site Bee in Controll"
+        }
+  },
+    
+  "rich-text#texto-termos-condicoes": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "Os presentes Termos de Uso regulam as condições gerais de utilização do site, plataforma e aplicações de Internet da Bee in Controll, em conformidade com a Lei 12.965/2014. Através do seu site a Bee in Controll disponibiliza o acesso a diversos conteúdos e serviços, permitindo maior interação com seus clientes e possibilitando a realização de compras online.\nAo utilizar os sites, plataformas ou aplicações de Internet da Loja Virtual você concorda expressa e integralmente com os presentes Termos de Uso.\nRecomendamos aos usuários que, previamente à utilização do site, plataforma ou aplicações de Internet da Loja Bee in Controll, realizem atenta leitura dos presentes Termos e Condições de Uso.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+  },
+
+  "rich-text#titulo-termos-cadastro": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": ["section-title-politica"],
+          "text": "Cadastro de Clientes"
+        }
+  },
+
+  "rich-text#texto-termos-cadastro": {
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "a. Para ser um Usuário do site, o Internauta precisa preencher o formulário de cadastro disponível no site na aba login.\nb. O Usuário precisa ter capacidade legal para contratar, (ser maior de 18 anos ou emancipado Caso o mesmo seja menor de idade e não emancipado, seu responsável legal deverá arcar com as consequências dos atos praticados pelo menor.",
+          "horizontalAlign": "left",
+          "blockClass": "texto-politica"
+        }
+  },
+
+  "rich-text#titulo-termos-cor": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": ["section-title-politica"],
+        "text": "Cor do Produto"
+      }
+  },
+
+  "rich-text#texto-termos-cor": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "A Loja Virtual Bee in Controll possui a tecnologia necessária para que as imagens dos produtos que apresentamos sejam as mais próximas possíveis das cores reais dos produtos. Porém, não é possível garantir a exatidão das cores visualizadas pelo cliente, podendo haver divergência na tonalidade do produto visto no site e a do produto ao vivo, devido a calibragem de brilho do monitor das telas de computadores e celulares.",
+        "horizontalAlign": "left",
+        "blockClass": "texto-politica"
+      }
+  },
+
+  "rich-text#titulo-termos-preco": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Preços"
+    }
+  },
+
+  "rich-text#texto-termos-preco": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Loja Virtual Bee in Controll se reserva no direito de correção de possíveis erros em relação aos preços divulgados em campanhas de mídia. Podendo fazer alterações de preços e especificações sem aviso prévio e sem incorrer em qualquer obrigação. Todos os preços e promoções estão sujeitos à disponibilidade de estoque e duração por tempo limitado.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-garantia": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Garantias, Responsabilidades e Danos"
+    }
+  },
+
+  "rich-text#texto-termos-garantia": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Bee in Controll não se responsabiliza pela complexidade e atualização do conteúdo, instrumentos e materiais contidos, utilizados oferecidos neste site.\nTambém não se responsabiliza pelo uso indevido das informações, instrumentos e materiais disponibilizados e dos equipamentos utilizados por este, para qualquer fim, feito por qualquer usuário ou cliente.\nO provimento adequado de internet, sem exceção, é de responsabilidade do usuário ou cliente do site.\nA Bee in Controll não se responsabiliza por conteúdo de outros websites, caso seus endereços estejam disponíveis neste site, bem como o endereço deste site estar disponível em outros websites. Não garantindo qualquer ressarcimento por danos causados por outros websites.\nTambém, a Bee in Controll se reserva o direito de reprovar, restringir ou eliminar quaisquer comentários que estejam em desacordo com o propósito de avaliação de produtos, ou que possam de qualquer forma, denegrir ou ofender a honra, imagem, reputação e dignidade de terceiros.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-conferencia": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Veracidade e Confidencialidade das Informações dos Usuários"
+    }
+  },
+
+  "rich-text#texto-termos-conferencia": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Bee in Controll reserva para si o direito de conferência da veracidade das informações fornecidas pelos consumidores, como dados cadastrais e pessoais. Podendo realizar consultas em sites como Receita Federal e Sistemas de análise e risco de crédito. Caso havendo qualquer divergência nessa consulta, o pedido do usuário ou cliente poderá ser cancelado, mediante aviso pelo e-mail cadastrado, com a intenção de coibir tentativa de fraude ou abuso de direitos cometidos por consumidores de má-fé.\nTambém reserva o direito de alteração das funcionalidades deste site, em função de nova análise das informações e/ou sugestões oferecidas por usuários. Para saber mais sobre o uso das informações coletadas, consulte a nossa Política de Privacidade.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-recurso-avaliacao": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Recursos de Avaliação e Comentários para Clientes/Usuários"
+    }
+  },
+
+  "rich-text#texto-termos-recurso-avaliacao": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Bee in Controll disponibiliza em seu site o recurso para seus Usuários e Clientes possam expressar suas opiniões referentes aos produtos oferecidos por seus fornecedores, bem como sobre os produtos que foram adquiridos ou que já conheçam em forma de avaliações. Todo este conteúdo não se caracteriza como manifestação oficial da empresa. No intuito de manter esta informação clara, se fará por necessário que para a realização do mesmo, o cliente/usuário esteja cadastrado e identificado.\nRessaltamos que o conteúdo de cada comentário é de única e exclusiva responsabilidade civil e penal do Usuário.\nCaso se faça por necessário, o site se reserva ao direito de reprovar, restringir ou eliminar comentários em desacordo com o propósito de avaliação de produtos, a seu critério, ou que contenham conteúdo, ofensivo, não autorizado, desrespeitoso, discriminante, pornográfico, inapropriado, que apresente instigação e/ou apologia à qualquer prática de crime, promova atividade comercial e/ou promocional.\n O descumprimento de quaisquer regras expostas ou suspeita de exercício de ilegalidades possibilitam ao site Bee in Controll, a suspensão e/ou cancelamento da conta de acesso do Usuário, sem necessidade de qualquer tipo de aviso prévio ou direito a indenização, sob qualquer pretexto.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-protect-login": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Proteção de Login e Senha"
+    }
+  },
+
+  "rich-text#texto-termos-protect-login": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "O usuário ou cliente é responsável por qualquer ação que possa vir a acontecer quando estiver utilizando sua conta de acesso a Loja Virtual Bee In Controll. Manter o login e senha em segurança e não permitir que ninguém use os dados para acessar o site, é o indicado, pois a Bee In Controll não se responsabiliza por perda ou dano que possa vir a resultar de um uso não autorizado do login e senha do usuário ou cliente, sem o seu consentimento.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-pagamento": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Formas de Pagamento"
+    }
+  },
+
+  "rich-text#texto-termos-pagamento": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Escolha a forma de pagamento: nos informando como você gostaria de pagar sua compra:\nA Loja Bee in Controll disponibiliza as opções abaixo:\nOpção 1 – Boleto Bancário\nO pagamento do boleto bancário pode ser realizado em qualquer banco ou pela internet (home-banking).\n O boleto bancário tem prazo de validade de 03 dias corridos, contados a partir do fechamento do pedido. Caso o pagamento não seja realizado neste prazo, o boleto perderá sua validade, o seu pedido será automaticamente cancelado e os itens selecionados ficarão disponíveis novamente na Loja Bee in Controll para venda.\nA confirmação de pagamento do boleto bancário pelas instituições financeiras é realizada dentro de até 02 dias úteis. Seu pedido só será faturado após recebermos a confirmação de pagamento da instituição financeira.\nOpção 2 – Cartão de Crédito\nA Loja Bee in Controll disponibiliza pagamento através das principais bandeiras de Cartão de Crédito, como Visa, Mastercard, Dinners.\nO pagamento poderá ser ou não aprovado em razão de inconsistências ou divergências de dados do titular do cartão. Não serão aceitas compras com cartão de crédito emitidos fora do Brasil.\nTodos extremamente seguros e confiáveis.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-frete": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Como Calcular o Prazo da sua Entrega"
+    }
+  },
+
+  "rich-text#texto-termos-frete": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Para calcular o prazo de entrega para seu endereço, digite o CEP no campo CALCULE O FRETE. Após digitar o CEP, será possível visualizar o prazo e todos os tipos de entrega disponíveis.\nImportante: O prazo de entrega tem sua contagem iniciada a partir da expedição do pagamento junto à instituição financeira e liberação do pedido pelo nosso sistema.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-recebimento": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Do Recebimento e Dever da Conferência"
+    }
+  },
+
+  "rich-text#texto-termos-recebimento": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A entrega só será realizada, caso haja uma pessoa autorizada no local (com documento de identificação com foto) para receber o item, pois é preciso checar, no ato da entrega, se a mercadoria está conforme o solicitado. Se o produto estiver em perfeitas condições, assine o Comprovante de Recebimento. É importante que o documento seja assinado e datado.\nSe o produto apresentar alguma divergência, recuse a entrega e entre em contato imediatamente com a Central de Relacionamento com o Cliente. Em caso de ausência, a transportadora realiza mais duas (02) tentativas de entrega e se, mesmo assim, não conseguir entregar, a mercadoria retorna ao Centro de Distribuição.\nAo receber o produto, verifique se está em perfeito estado e só então, assine a nota fiscal ou comprovante de entrega.\nTodos os produtos são armazenados em embalagens especiais, a fim de garantir a sua qualidade e evitar a avaria.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-acompanhe": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Acompanhe sua Entrega"
+    }
+  },
+
+  "rich-text#texto-termos-acompanhe": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Loja Virtual da Bee in Controll, disponibiliza uma ferramenta para acompanhar sua entrega, onde basta entrar com seu login e senha na página ACOMPANHAR PEDIDO.\nNa página de entrada há um resumo de sua compra. Para verificar todas as informações, basta clicar no número do pedido.\nVocê também receberá uma comunicação no e-mail cadastrado sempre que houver uma alteração de status em seu pedido.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-atraso": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Atraso na Entrega"
+    }
+  },
+
+  "rich-text#texto-termos-atraso": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Alguns fatores podem ocasionar um atraso na entrega, como demora na liberação do pedido por parte da administradora do cartão de crédito, demora da expedição do pagamento junto à instituição financeira, inconsistência de dados fornecidos pelo cliente, ausência no local de entrega, recusa no recebimento por terceiros, além de fenômenos naturais.\nAtravés de nossa Central de Relacionamento será possível obter todas as informações referentes a um possível atraso em sua entrega.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-nfe": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Nota Fiscal Eletrônica NFe"
+    }
+  },
+
+  "rich-text#texto-termos-nfe": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A Nota Fiscal Eletrônica é um documento de existência apenas digital, emitido e armazenado eletronicamente, com o intuito de documentar, para fins fiscais, uma operação de circulação de mercadorias ou uma prestação de serviços, ocorrida entre as partes. Sua validade jurídica é garantida pela assinatura digital do remetente (garantia de autoria e de integridade) e pela recepção, pelo Fisco, do documento eletrônico, antes da ocorrência do fato gerador.",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  },
+
+  "rich-text#titulo-termos-alteracoes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["section-title-politica"],
+      "text": "Alterações dos Termos e Condições"
+    }
+  },
+
+  "rich-text#texto-termos-alteracoes": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "A qualquer tempo, estes termos e condições poderão ser revisados, modificados ou atualizados de forma unilateral pela Bee in Controll e sem notificação prévia, disponibilizando novo texto integral em nossa Loja Virtual. ",
+      "horizontalAlign": "left",
+      "blockClass": "texto-politica"
+    }
+  }
+}

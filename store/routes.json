@@ -13,5 +13,9 @@
 
   "store.custom#politica-de-troca":{
     "path": "/politica-de-troca"
+  },
+
+  "store.custom#termo-de-uso":{
+    "path": "/termos-de-uso"
   }
 }
