@@ -7,3 +7,27 @@
     align-items: center;
 
 }
+
+/* .flexRowContent--copy--footer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+  
+
+} */
+
+@media screen and (max-width: 468px){
+    .flexRowContent--copy--footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-top: 15px;   
+        background-color: #303030;
+}
+    .flexRow--footer {
+        background-color: #303030;
+        padding: 0;
+    }
+}

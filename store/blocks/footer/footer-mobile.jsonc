@@ -28,7 +28,8 @@
     "props": {
       "fullWidth": false,
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
       
     },
     "children": ["flex-layout.row#footer-3-1-mobile"]
@@ -49,15 +50,21 @@
   },
   "flex-layout.row#footer-4-mobile": {
     "props": {
-      "blockClass": ["social--footer"],
       "fullWidth": false,
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+      
       
     },
     "children": ["flex-layout.row#footer-4-1-mobile"]
   },
   "flex-layout.row#footer-4-1-mobile": {
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": ["social--footer"],
+      "colSizing": "equal"
+    },
     "children": [
       "rich-text#pague-com",
       "accepted-payment-methods"
@@ -65,12 +72,21 @@
   },
   "flex-layout.row#footer-5-mobile": {
     "props": {
+      "fullWidth": true,
       "preserveLayoutOnMobile": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": ["copy--footer"],
+      "preventHorizontalStretch": true
     },
-    "children": ["flex-layout.row#footer-4-1-mobile"]
+    "children": ["flex-layout.row#footer-5-1-mobile"]
   },
   "flex-layout.row#footer-5-1-mobile": {
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": ["copy--footer"],
+      "colSizing": "equal"
+    },
+    
     "children": ["rich-text#realizacao", "image#logo-vtex", "image#logo-gama"]
   }
 

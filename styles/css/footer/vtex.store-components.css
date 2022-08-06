@@ -1,7 +1,7 @@
 .imageElement--logo-footer {
   margin: 8px 0;
  
-},
+}
 
 
 
@@ -11,13 +11,21 @@
     max-height: 36px !important;
    
   }
-  .imageElement--logo-marcas-footer {
-    margin-top: -20px;
-    max-width: 52px !important;
-    max-height: 16px !important;
+  .imageElement--logo-vtex-footer {
+    margin-top: 0;
+    max-width: 52px;
+    max-height: 16px;
+  
     
   }
  
+  .imageElement--logo-gama-footer {
+    margin-top: 0;
+    padding: 0;
+    width: 87px !important;
+    height: 21px !important;
+    
+  }
 
 }
 

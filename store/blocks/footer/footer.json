@@ -10,7 +10,8 @@
       "flex-layout.row#footer-1-mobile",
       "flex-layout.row#footer-2-mobile",
       "flex-layout.row#footer-3-mobile",
-      "flex-layout.row#footer-4-mobile"
+      "flex-layout.row#footer-4-mobile",
+      "flex-layout.row#footer-5-mobile"
     ]
   },
   "image#logo-hc": {
