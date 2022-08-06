@@ -26,3 +26,22 @@
   }
 
   }
+
+
+  @media (min-width: 800px) and (max-width: 1180px) {
+
+    .imageElement--img-about-us {
+      max-width: 30vw;
+      max-height: 15vh;
+      margin-top: 13vh;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+
+    .imageElement--banner-about{
+      width: 100vw;
+      height: 80vh;
+      margin-bottom: 30px;
+    }
+} 
