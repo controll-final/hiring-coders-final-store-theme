@@ -42,7 +42,7 @@
           "highlight": false,
           "itemProps": {
             "categoryId": "42",
-            "text": "Personalizados"
+            "text": "Moda Bee"
           }
         },
         {
@@ -52,12 +52,24 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
+            "href": "/148?map=productClusterIds",
+            "text": "Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": "0",
+            "type": "internal",
             "href": "/146?map=productClusterIds",
             "text": "Novidades"
           }
         },
         {
-          "id": "menu-item-category-6",
+          "id": "menu-item-category-7",
           "type": "custom",
           "iconId": null,
           "highlight": false,
