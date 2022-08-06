@@ -3,7 +3,7 @@
     "title": "[Home] Banner principal",
     "children": ["slider-layout#slider-banners"],
     "props": {
-      "height": 500,
+      "height": 587,
       "images": [
         {
           "image": "assets/images/banner/beeincontroll-banner-1.jpg",
