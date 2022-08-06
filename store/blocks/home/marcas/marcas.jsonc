@@ -33,7 +33,7 @@
         "timing": "ease-in"
       },
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 5,
         "tablet": 4,
         "phone": 3
       },
@@ -53,7 +53,10 @@
       "image#marca8",
       "image#marca9",
       "image#marca10",
-      "image#marca11"
+      "image#marca11", 
+      "image#marca12",
+      "image#marca13",
+      "image#marca14"
     ]
   },
   "image#marca1": {
@@ -142,6 +145,30 @@
       "maxHeight": 130,
       "src": "assets/images/marcas/Surreal.jpg",
       "alt": "logotipo marca Surreal"
+    }
+  },
+  "image#marca12": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Acct.jpg",
+      "alt": "logotipo marca ACCT"
+    }
+  },
+  "image#marca13": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/aws2.jpg",
+      "alt": "logotipo marca AWS"
+    }
+  },
+  "image#marca14": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/le-bisc-uit.jpg",
+      "alt": "logotipo marca Le biscuit"
     }
   }
 }

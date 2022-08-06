@@ -60,7 +60,7 @@
       "link": {
         "url": "/Mochilas?map=c"
       },
-      "src": "assets/images/cta/call-to-action-mochila.jpg"
+      "src": "assets/images/cta/cta-feminino.jpg"
     }
   },
   "image#cta-2": {
@@ -69,7 +69,7 @@
       "link": {
         "url": "/Hats?map=c"
       },
-      "src": "assets/images/cta/call-to-action-hat.jpg"
+      "src": "assets/images/cta/cta-masculino.jpg"
     }
   },
   "image#cta-3": {
@@ -78,7 +78,7 @@
       "link": {
         "url": "/Copos?map=c"
       },
-      "src": "assets/images/cta/call-to-action-copo.jpg"
+      "src": "assets/images/cta/cta-infantil.jpg"
     }
   },
   "image#cta-4": {
@@ -87,7 +87,7 @@
       "link": {
         "url": "/Camisetas?map=c"
       },
-      "src": "assets/images/cta/call-to-action-camiseta.jpg"
+      "src": "assets/images/cta/cta-personalizados.jpg"
     }
   }
 }
