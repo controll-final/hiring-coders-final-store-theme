@@ -20,6 +20,7 @@
     "props": {
       "fullWidth": true,
       "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
       "blockClass": "container-vantagens1"
     },
     "children": [
@@ -32,6 +33,7 @@
     "props": {
       "fullWidth": true,
       "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
       "blockClass": "container-vantagens2"
     },
     "children": [
@@ -71,6 +73,7 @@
       "fullWidth": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
+      "horizontalAlign": "center",
       "slideTransition": {
         "speed": 1500,
         "delay": 0,

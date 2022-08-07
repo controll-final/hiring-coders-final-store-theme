@@ -63,6 +63,7 @@
 
 .imageElement--banner{
   width: 100vw;
+  margin: 0;
 }
 
 .skuSelectorContainer {

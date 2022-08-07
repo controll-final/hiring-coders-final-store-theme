@@ -4,6 +4,7 @@
     "children": ["slider-layout#slider-banners"],
     "props": {
       "height": 587,
+      "fullWidth": true,
       "images": [
         {
           "image": "assets/images/banner/beeincontroll-banner-1.jpg",
@@ -34,7 +35,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "always",
+      // "showPaginationDots": "always",
       "fullWidth": true,
       "blockClass": ["slider-banners"]
     }

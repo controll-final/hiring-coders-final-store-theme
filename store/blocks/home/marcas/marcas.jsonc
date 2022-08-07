@@ -2,7 +2,7 @@
   "flex-layout.row#section-title-marcas": {
     "title": "[Home] - Titulo Seção: Marcas",
     "props": {
-      "fullWidth": false,
+      
       "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -40,7 +40,7 @@
       "autoplay": {
         "timeout": 4000
       },
-      "blockClass": ["container-marcas"]
+       "blockClass": ["container"]
     },
     "children": [
       "image#marca1",

@@ -7,5 +7,6 @@
 }
 
 .slide--container-vantagens {
-	margin: 1rem;
+	margin-top: 1rem;
+  max-inline-size: max-content;
 }
