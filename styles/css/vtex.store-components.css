@@ -62,9 +62,15 @@
 }
 
 .imageElement--banner{
-  width: 100vw;
+  width: 100vw !important;
   margin: 0;
 }
+
+.imageElement--slider-banners{
+  width: 100vw !important;
+}
+
+
 
 .skuSelectorContainer {
   margin: 1rem 0;
