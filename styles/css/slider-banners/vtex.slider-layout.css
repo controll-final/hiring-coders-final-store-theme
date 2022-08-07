@@ -1,12 +1,12 @@
 .sliderLayoutContainer--slider-banners {
     margin: -6px 0;
-    width: 100vw;
+    
 }
 
 .slide--slider-banners {
     padding: 0;
     margin: 0;
-    width: 100vw !important;
+    width: 100%;
 }
 
 .paginationDotsContainer--slider-banners {
