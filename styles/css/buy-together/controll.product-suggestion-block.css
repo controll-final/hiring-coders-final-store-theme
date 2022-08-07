@@ -1,0 +1,33 @@
+.buyTogetherContainer {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.buyTogetherContent {
+  justify-content: space-evenly;
+}
+
+.changeSuggestionButton :global(.vtex-button__label) {
+  text-transform: none;
+  font-family: "Red Hat Display", San Francisco, -apple-system, helvetica,
+    sans-serif;
+  font-size: 18px;
+}
+
+.totalSuggestionValue {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.totalSuggestionContainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .suggestionContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

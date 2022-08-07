@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#section-title-buy-together": {
+    "title": "[PDP] - Titulo Seção: Compre Junto",
+    "props": {
+      "fullWidth": false,
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
+    },
+    "children": ["rich-text#section-title-buy-together"]
+  },
+  "rich-text#section-title-buy-together": {
+    "title": "[PDP] - Título: Compre Junto",
+    "props": {
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Compre Junto"
+    }
+  },
+  "buy-together-suggestions": {
+    "blocks": ["buy-together-custom"],
+    "children": ["flex-layout.row#section-title-buy-together"]
+  }
+}
