@@ -35,7 +35,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      // "showPaginationDots": "always",
+      "showPaginationDots": "always",
       "fullWidth": true,
       "blockClass": ["slider-banners"]
     }
