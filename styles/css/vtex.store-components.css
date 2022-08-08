@@ -162,3 +162,7 @@
 .shippingContainer{
   width: 35%;
 }
+
+.carouselGaleryThumbs {
+  z-index: 99;
+}
