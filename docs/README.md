@@ -4,17 +4,17 @@
 
 ## 🔎 Índice de conteúdos
 
-* [Sobre o Projeto](#📝-Sobre-o-projeto)
-    * [Concepção da Bee in Controll](#📌-Concepção-da-Bee-in-Controll)
-    * [Construção](#📌-Construção)
-    * [Construção do Layout](#📌-Construção-do-layout)
-    * [Catálogo de Produto](#📌-Catálogo-de-produto)
-* [Tecnologias e Ferramentas](#🔧-Tecnologias-e-Ferramentas)
-* [Executando](#🔨-Executando)
-* [Back-End](#💻-Back-End)
-* [Desenvolvido Por](#💪🏻-Desenvolvido-por)
-* [Atribuições](#👥-Atribuições)
-* [Preview](##-📸-Preview)
+* [Sobre o Projeto](#📝-sobre-o-projeto)
+    * [Concepção da Bee in Controll](#📌-concepção-da-bee-in-controll)
+    * [Construção](#📌-construção)
+    * [Construção do Layout](#📌-construção-do-layout)
+    * [Catálogo de Produto](#📌-catálogo-de-produto)
+* [Tecnologias e Ferramentas](#🔧-tecnologias-e-ferramentas)
+* [Executando](#🔨-executando)
+* [Back-End](#💻-back-end)
+* [Desenvolvido Por](#💪🏻-desenvolvido-por)
+* [Atribuições](#👥-atribuições)
+* [Preview](#📸-preview)
 
 #
 ## 📝 Sobre o Projeto
@@ -31,33 +31,52 @@
 ### 📌 **Construção**
 
 - Para o projeto, foi utilizada a metodologia ágil **Kanban**.
-#### **O Front-End Possui:**
+- Página construída com base no projeto da semifinal, o qual foi baseado no Store Theme - VTEX. 
+- Construção do front-end segundo o protótipo construído no [Figma](https://www.figma.com/file/BhAeyEwi0T6o5koquYqDQu/HC-Final-Bee-In-Control).
 
-- Header com Menus: todos habilitados
-    * Banners com CTA
-    * Carousel com coleções exclusivas
-    * Cards com CTA
-    * Carousel com marcas com link direcionável
+### **O Front-End Possui:**
+
+- Header com Menus: todos os links habilitados.
+- Home:
+    * Banners com CTA;
+    * Carousel com coleções exclusivas;
+    * Cards com CTA;
+    * Carousel com marcas com link direcionável.
 - Footer: 
     - Páginas específicas do site: Sobre Nós, Política de Privacidade, Termo de Uso, Política de Troca e Fale Conosco; 
     - Links de Redes Sociais da Loja Bee In Controll: Facebook, Instagram e Youtube.
-- Página Search
-- Página de Produto
-- Página Sobre Nós
-- Página Fale Conosco: imagens clicáveis que redirecionam para as respectivas páginas e um app costumizado para o formulário.
-- Página Política de Privacidade
-- Página Política de Troca
-- Página Termos de Uso
+- Página Search;
+- Página de Produto;
+- Página Sobre Nós;
+- Página Fale Conosco:
+    * Imagens clicáveis que redirecionam para as respectivas páginas elucidadas em seu texto;
+    * App VTEX customizado construído com React e Styled Components para o bloco de formulário.
+- Página Política de Privacidade;
+- Página Política de Troca;
+- Página Termos de Uso;
+- Customizações no bloco Minicart.
 ---
 ### 📌 **Construção do Layout**
 
-
+- Foram criadas duas buyer-personas a partir das informações coletadas por meio de um formulário com questionário para conhecer o público-alvo de maneira mais profunda. Esses personagens ajudaram a manter a consistência da comunicação e identidade da marca durante o desenvolvimento da loja online.
+- Auxílio na criação de frases e CTAs para os banners do site, sempre mantendo o tom característico da marca, que foi alinhado com a equipe.
+- Marketing - CRIAÇÃO DE PERFIS EM REDES SOCIAIS
 ---
-#### 📌 **Catálogo de Produto**
+### 📌 **Loja VTEX**
 
-
-
-
+- Nome da Loja alterado no CMS - /admin/cms/store
+- Login Social habilitado para utilização -  admin/authentication
+- Catálogo de Produtos:
+    - Categoria: 
+    - Marcas
+    - Coleções
+    - Produtos:
+        * Todos os mockups de produtos foram construídos pela equipe.
+        * Todos os produtos foram importados de forma nativa pela plataforma VTEX utilizando as funcionalidades do Admin. Importado: Cadastro, Imagem e Preço.
+        * Todas as imagens foram convertidas para .jpg para melhor performance e seguindo a recomendação de melhores práticas da VTEX.
+        * As imagens foram adicionados em repositório publico, Bucket S3 da AWS, para disponibilização da importação na VTEX: https://hc-controll.s3.amazonaws.com/product/{nomedaimagem.jpg}.
+        * Foi adicionado estoque para todos os produtos.
+}
 
 #
 ## 🔧 Tecnologias e Ferramentas
@@ -68,6 +87,7 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 - Ferramenta de Controle: **Trello** (consulte [aqui](https://trello.com/invite/b/VbvHD6lF/bfb09d3906c305da45a50b58596367a4/controll-final-hc/))
 - Armazenamento de arquivos: **Google Drive** (consulte [aqui](https://drive.google.com/drive/folders/1Y9ZXOOvD85fpLGHDKMcNzSFZE4bm_ZoB))
 - Comunicação: Alinhamentos no **Gather**; **Slack** e **WhatsApp**
+- Foi utilizada uma ferramenta **Gerador de documentos de pessoas (Nome, RG, CPF, CEP, Endereço, etc) - 4Devs** para utilizar dados fictícios para as compras realizadas.
 - **VTEX IO**
 - **Java**
 - **React**
