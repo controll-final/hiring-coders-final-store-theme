@@ -1,21 +1,22 @@
 {
-  "flex-layout.row#titulo-ofertas": {
-    "title": "[Home] - Titulo Seção: Ofertas",
+  "flex-layout.row#section-title-ofertas": {
+    "title": "[PDP] - Titulo Seção: Ofertas",
     "props": {
-      "fullWidth": true,
       "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "blockClass": ["container", "section-title"]
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container", "section-title", "section-title-dashed"]
     },
-    "children": ["rich-text#titulo-ofertas"]
+    "children": ["rich-text#section-title-ofertas"]
   },
-  "rich-text#titulo-ofertas": {
-    "title": "[Home] - Título: ofertas",
+  "rich-text#section-title-ofertas": {
+    "title": "[PDP] - Título: Ofertas",
     "props": {
-      "blockClass": ["section-title"],
-      "text": "Ofertas"
+      "blockClass": ["section-title", "section-title-dashed"],
+      "text": "### Ofertas"
     }
   },
   "flex-layout.row#ofertas": {
