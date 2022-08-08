@@ -13,7 +13,7 @@
 * [Executando](#💻-Executando)
 * [Desenvolvido Por](#💪🏻-Desenvolvido-por)
 * [Atribuições](#👥-Atribuições)
-* [Preview](#👓-Preview)
+* [Preview](##-👓-Preview)
 
 git pu
 ## 📝 Sobre o Projeto
