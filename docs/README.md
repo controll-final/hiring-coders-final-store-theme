@@ -5,17 +5,17 @@
 ## 🔎 Tabela de conteúdos
 
 * [Sobre o Projeto](#📝-Sobre-o-projeto)
-    * sadsad
-    * sadsadsa
-    * asdsadsad
-    * sadsadasd
+    * [Concepção](#📌-Concepção)
+    * [Construção](#📌-Construção)
+    * [Catálogo](#📌-Catálogo)
+    * [sadsadasd](#📌-s)
 * [Tecnologias e Ferramentas](#🔧-Tecnologias-e-Ferramentas)
 * [Executando](#💻-Executando)
 * [Desenvolvido Por](#💪🏻-Desenvolvido-por)
 * [Atribuições](#👥-Atribuições)
 * [Preview](#👓-Preview)
 
-
+git pu
 ## 📝 Sobre o Projeto
 
 #### 📌 **Concepção**
@@ -34,7 +34,7 @@
     - **Páginas específicas** do site: Sobre Nós, Política de Privacidade, Termo de Uso, Política de Troca e Fale Conosco; 
     - **Links de Redes Sociais da Loja Bee In Controll**: Facebook, Instagram e Youtube.
 
-#### 📌 **Blablablabla**
+#### 📌 **Catálogo**
 
 
 
