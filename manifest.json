@@ -66,7 +66,7 @@
     "vtex.css-handles": "1.x",
     "vtex.category-menu": "2.x",
     "controll.contact-me": "0.x",
-    "controll.product-suggestion-block": "0.0.2"
+    "controll.product-suggestion-block": "0.x"
   },
   "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
