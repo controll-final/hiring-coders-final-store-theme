@@ -33,7 +33,7 @@
         "timing": "ease-in"
       },
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 6,
         "tablet": 4,
         "phone": 3
       },
@@ -54,9 +54,7 @@
       "image#marca9",
       "image#marca10",
       "image#marca11", 
-      "image#marca12",
-      "image#marca13",
-      "image#marca14"
+      "image#marca12"
     ]
   },
   "image#marca1": {
@@ -111,19 +109,11 @@
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
-      "src": "assets/images/marcas/Adidas.jpg",
-      "alt": "logotipo marca Adidas"
-    }
-  },
-  "image#marca8": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
       "src": "assets/images/marcas/DLK.jpg",
       "alt": "Logotipo marca DLK"
     }
   },
-  "image#marca9": {
+  "image#marca8": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
@@ -131,15 +121,7 @@
       "alt": "logotipo marca Kaisan"
     }
   },
-  "image#marca10": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/LeCoqSportif.jpg",
-      "alt": "logotipo marca LeCoqSportif"
-    }
-  },
-  "image#marca11": {
+  "image#marca9": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
@@ -147,7 +129,7 @@
       "alt": "logotipo marca Mizuno"
     }
   },
-  "image#marca12": {
+  "image#marca10": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
@@ -155,7 +137,7 @@
       "alt": "logotipo marca Redikal"
     }
   },
-  "image#marca13": {
+  "image#marca11": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
@@ -163,7 +145,7 @@
       "alt": "logotipo marca Reserva"
     }
   },
-  "image#marca14": {
+  "image#marca12": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
