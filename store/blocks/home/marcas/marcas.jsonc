@@ -63,99 +63,11 @@
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
-      "src": "assets/images/marcas/Disney.jpg",
-      "alt": "logotipo marca Disney"
-    }
-  },
-  "image#marca2": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Adidas.jpg",
-      "alt": "logotipo marca Adidas"
-    }
-  },
-  "image#marca3": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Controll.jpg",
-      "alt": "logotipo marca Controll"
-    }
-  },
-  "image#marca4": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/DLK.jpg",
-      "alt": "Logotipo marca DLK"
-    }
-  },
-  "image#marca5": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/HiringCoders.jpg",
-      "alt": "logotipo marca Hiring Coders"
-    }
-  },
-  "image#marca6": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Kaisan.jpg",
-      "alt": "logotipo marca Kaisan"
-    }
-  },
-  "image#marca7": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/LeCoqSportif.jpg",
-      "alt": "logotipo marca LeCoqSportif"
-    }
-  },
-  "image#marca8": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Mizuno.jpg",
-      "alt": "logotipo marca Mizuno"
-    }
-  },
-  "image#marca9": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Redikal.jpg",
-      "alt": "logotipo marca Redikal"
-    }
-  },
-  "image#marca10": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Reserva.jpg",
-      "alt": "logotipo marca Reserva"
-    }
-  },
-  "image#marca11": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
-      "src": "assets/images/marcas/Surreal.jpg",
-      "alt": "logotipo marca Surreal"
-    }
-  },
-  "image#marca12": {
-    "title": "[Home] Marcas - Imagem",
-    "props": {
-      "maxHeight": 130,
       "src": "assets/images/marcas/Acct.jpg",
       "alt": "logotipo marca ACCT"
     }
   },
-  "image#marca13": {
+  "image#marca2": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
@@ -163,12 +75,100 @@
       "alt": "logotipo marca AWS"
     }
   },
-  "image#marca14": {
+  "image#marca3": {
     "title": "[Home] Marcas - Imagem",
     "props": {
       "maxHeight": 130,
       "src": "assets/images/marcas/le-bisc-uit.jpg",
       "alt": "logotipo marca Le biscuit"
+    }
+  },
+  "image#marca4": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/HiringCoders.jpg",
+      "alt": "logotipo marca Hiring Coders"
+    }
+  },
+  "image#marca5": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Controll.jpg",
+      "alt": "logotipo marca Controll"
+    }
+  },
+  "image#marca6": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Disney.jpg",
+      "alt": "logotipo marca Disney"
+    }
+  },
+  "image#marca7": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Adidas.jpg",
+      "alt": "logotipo marca Adidas"
+    }
+  },
+  "image#marca8": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/DLK.jpg",
+      "alt": "Logotipo marca DLK"
+    }
+  },
+  "image#marca9": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Kaisan.jpg",
+      "alt": "logotipo marca Kaisan"
+    }
+  },
+  "image#marca10": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/LeCoqSportif.jpg",
+      "alt": "logotipo marca LeCoqSportif"
+    }
+  },
+  "image#marca11": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Mizuno.jpg",
+      "alt": "logotipo marca Mizuno"
+    }
+  },
+  "image#marca12": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Redikal.jpg",
+      "alt": "logotipo marca Redikal"
+    }
+  },
+  "image#marca13": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Reserva.jpg",
+      "alt": "logotipo marca Reserva"
+    }
+  },
+  "image#marca14": {
+    "title": "[Home] Marcas - Imagem",
+    "props": {
+      "maxHeight": 130,
+      "src": "assets/images/marcas/Surreal.jpg",
+      "alt": "logotipo marca Surreal"
     }
   }
 }
