@@ -2,19 +2,19 @@
     Bee in Controll Store Theme 🐝
 </h1>
 
-## 🔎 Tabela de conteúdos
+## 🔎 Índice de conteúdos
 
 * [Sobre o Projeto](#📝-Sobre-o-projeto)
-    * [Concepção](#📌-Concepção-da-Bee-in-Controll)
+    * [Concepção da Bee in Controll](#📌-Concepção-da-Bee-in-Controll)
     * [Construção](#📌-Construção)
-    * [Catálogo](#📌-Construção-do-layout)
-    * [sadsadasd](#📌-Catálogo-de-produto)
+    * [Construção do Layout](#📌-Construção-do-layout)
+    * [Catálogo de Produto](#📌-Catálogo-de-produto)
 * [Tecnologias e Ferramentas](#🔧-Tecnologias-e-Ferramentas)
 * [Executando](#🔨-Executando)
 * [Back-End](#💻-Back-End)
 * [Desenvolvido Por](#💪🏻-Desenvolvido-por)
 * [Atribuições](#👥-Atribuições)
-* [Preview](##-👓-Preview)
+* [Preview](##-📸-Preview)
 
 #
 ## 📝 Sobre o Projeto
@@ -30,13 +30,14 @@
 ---
 ### 📌 **Construção**
 
+- Para o projeto, foi utilizada a metodologia ágil **Kanban**.
 #### **O Front-End Possui:**
 
 - Header com Menus: todos habilitados
     * Banners com CTA
     * Carousel com coleções exclusivas
     * Cards com CTA
-    *Carousel com marcas com link direcionável
+    * Carousel com marcas com link direcionável
 - Footer: 
     - Páginas específicas do site: Sobre Nós, Política de Privacidade, Termo de Uso, Política de Troca e Fale Conosco; 
     - Links de Redes Sociais da Loja Bee In Controll: Facebook, Instagram e Youtube.
@@ -56,7 +57,7 @@
 
 
 
-- Metodologia ágil: Kanban
+
 
 #
 ## 🔧 Tecnologias e Ferramentas
@@ -114,4 +115,4 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 #
 ## 📸 Preview
 
-<img alt="Preview" title="#Preview" src="../imagens/projeto/site_desktop.png" />
+<img alt="Preview" title="#Preview" src="../imagens/projeto/home-desktop.png" />
