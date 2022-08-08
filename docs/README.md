@@ -10,12 +10,13 @@
     * [Catálogo](#📌-Catálogo)
     * [sadsadasd](#📌-s)
 * [Tecnologias e Ferramentas](#🔧-Tecnologias-e-Ferramentas)
-* [Executando](#💻-Executando)
+* [Executando](#🔨-Executando)
+* [Back-End](#💻-Back-End)
 * [Desenvolvido Por](#💪🏻-Desenvolvido-por)
 * [Atribuições](#👥-Atribuições)
 * [Preview](##-👓-Preview)
 
-git pu
+#
 ## 📝 Sobre o Projeto
 
 #### 📌 **Concepção**
@@ -44,6 +45,7 @@ git pu
 
 - Metodologia ágil: Kanban
 
+#
 ## 🔧 Tecnologias e Ferramentas
 
 As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
@@ -58,13 +60,19 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 - **Typescript**
 - **EC2**
 - **S3**
+#
+## 🔨 Executando
 
-## 💻 Executando
-
-- vtex login {sua conta}
-- vtex use beein [Ou acesse o workspace por aqui](https://beein--controll.myvtex.com/)
+```
+- vtex login controll
+- vtex use beein 
 - vtex link
+```
+#
 
+## 💻 Back-End
+
+#
 ## 💪🏻 Desenvolvido por
 
 - [Alessandra Buzios](https://www.linkedin.com/in/alessandra-buzios/)
@@ -78,7 +86,7 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 - [Rômulo Rosa](https://www.linkedin.com/in/romulofrontend/)
 - [Suélen Dias](https://www.linkedin.com/in/su%C3%A9len-dias-palhares-2aa47573/)
 
-
+#
 ## 👥 Atribuições
 
 - **Squad Leader**: Suélen Dias
@@ -89,6 +97,8 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 - **Admin Loja Vtex**: Suélen Dias, Fernando Beça, Andressa Santana
 - **Marketing**: Cristiane dos Santos Costa; Leona Evangelista e Alessandra
 - **Documentação**: Suélen Dias; Leona Evangelista
-## 👓 Preview
+
+#
+## 📸 Preview
 
 <img alt="Preview" title="#Preview" src="../imagens/projeto/site_desktop.png" />
