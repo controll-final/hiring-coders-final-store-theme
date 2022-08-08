@@ -5,10 +5,10 @@
 ## 🔎 Tabela de conteúdos
 
 * [Sobre o Projeto](#📝-Sobre-o-projeto)
-    * [Concepção](#📌-Concepção)
+    * [Concepção](#📌-Concepção-da-Bee-in-Controll)
     * [Construção](#📌-Construção)
-    * [Catálogo](#📌-Catálogo)
-    * [sadsadasd](#📌-s)
+    * [Catálogo](#📌-Construção-do-layout)
+    * [sadsadasd](#📌-Catálogo-de-produto)
 * [Tecnologias e Ferramentas](#🔧-Tecnologias-e-Ferramentas)
 * [Executando](#🔨-Executando)
 * [Back-End](#💻-Back-End)
@@ -19,27 +19,40 @@
 #
 ## 📝 Sobre o Projeto
 
-#### 📌 **Concepção**
+### 📌 **Concepção da Bee in Controll**
 
- - A concepção do nome e identidade da Bee In Controll surgiu    
+ - A concepção do nome da loja Bee In Controll surgiu a partir de um trocadinho entre o nome Controll (casa designada a nosso grupo do Hiring Coders #3) e o abelha, animal que representa casa. Dito isto, buscamos construir uma identidade visual compatível com um grupo etário de jovens adultos que vem em sua vestimenta uma forma de expressar quem são e como gostariam de ser vistos pelo ambiente que os cercam.
 
+> A Bee In Controll nasceu inspirada no incrível poder de transformação, criatividade e união das abelhas.
+>E pensando nisso, queremos te incentivar a unir-se a nós para se libertar dos padrões, usando sua criatividade como meio da transformação para assim assumir o controle do seu estilo.
+>Nossa missão é trazer liberdade através de roupas divertidas e criativas, feitas especialmente para adoçar sua vida. E antes que você se pergunte, não usamos mel na fabricação de nossas peças, haha.
+>Acreditamos que estilo não é seguir tendências, mas sim um poder capaz de expressar um pouco da sua personalidade e da sua essência, vestindo o que te faz sentir bem e confortável. Então, por favor, vista-se de você!!
+---
+### 📌 **Construção**
 
-#### 📌 **Construção**
+#### **O Front-End Possui:**
 
 - Header com Menus: todos habilitados
-- Banners com CTA
-- Carousel com coleções exclusivas
-- Cards com CTA
-- Carousel com marcas com link direcionável
+    * Banners com CTA
+    * Carousel com coleções exclusivas
+    * Cards com CTA
+    *Carousel com marcas com link direcionável
 - Footer: 
-    - **Páginas específicas** do site: Sobre Nós, Política de Privacidade, Termo de Uso, Política de Troca e Fale Conosco; 
-    - **Links de Redes Sociais da Loja Bee In Controll**: Facebook, Instagram e Youtube.
+    - Páginas específicas do site: Sobre Nós, Política de Privacidade, Termo de Uso, Política de Troca e Fale Conosco; 
+    - Links de Redes Sociais da Loja Bee In Controll: Facebook, Instagram e Youtube.
+- Página Search
+- Página de Produto
+- Página Sobre Nós
+- Página Fale Conosco: imagens clicáveis que redirecionam para as respectivas páginas e um app costumizado para o formulário.
+- Página Política de Privacidade
+- Página Política de Troca
+- Página Termos de Uso
+---
+### 📌 **Construção do Layout**
 
-#### 📌 **Catálogo**
 
-
-
-#### 📌 **Blablablabla**
+---
+#### 📌 **Catálogo de Produto**
 
 
 
