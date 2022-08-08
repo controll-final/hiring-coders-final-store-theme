@@ -160,7 +160,15 @@
 }
 
 .shippingContainer{
-  width: 35%;
+  /* width: 35% */
+  display: flex;
+  gap: 20px;
+}
+
+.shippingContainer .vtex-button{
+  height: 38px;
+  margin-top: 25px;
+  width: 50%;
 }
 
 .carouselGaleryThumbs {
