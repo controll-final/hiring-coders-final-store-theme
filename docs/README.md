@@ -4,17 +4,17 @@
 
 ## 🔎 Índice de conteúdos
 
-* [Sobre o Projeto](#📝-sobre-o-projeto)
-    * [Concepção da Bee in Controll](#📌-concepção-da-bee-in-controll)
-    * [Construção](#📌-construção)
-    * [Construção do Layout](#📌-construção-do-layout)
-    * [Catálogo de Produto](#📌-catálogo-de-produto)
-* [Tecnologias e Ferramentas](#🔧-tecnologias-e-ferramentas)
-* [Executando](#🔨-executando)
-* [Back-End](#💻-back-end)
-* [Desenvolvido Por](#💪🏻-desenvolvido-por)
-* [Atribuições](#👥-atribuições)
-* [Preview](#📸-preview)
+* [Sobre o Projeto](#-sobre-o-projeto)
+    * [Concepção da Bee in Controll](#-concepção-da-bee-in-controll)
+    * [Construção](#-construção)
+    * [Construção do Layout](#-construção-do-layout)
+    * [Loja VTEX](#-loja-vtex)
+* [Tecnologias e Ferramentas](#-tecnologias-e-ferramentas)
+* [Executando](#-executando)
+* [Back-End](#-back-end)
+* [Desenvolvido Por](#-desenvolvido-por)
+* [Atribuições](#-atribuições)
+* [Preview](#-preview)
 
 #
 ## 📝 Sobre o Projeto
@@ -58,9 +58,10 @@
 ---
 ### 📌 **Construção do Layout**
 
-- Foram criadas duas buyer-personas a partir das informações coletadas por meio de um formulário com questionário para conhecer o público-alvo de maneira mais profunda. Esses personagens ajudaram a manter a consistência da comunicação e identidade da marca durante o desenvolvimento da loja online.
-- Auxílio na criação de frases e CTAs para os banners do site, sempre mantendo o tom característico da marca, que foi alinhado com a equipe.
-- Marketing - CRIAÇÃO DE PERFIS EM REDES SOCIAIS
+- Foram criadas duas buyer-personas a partir das informações coletadas por meio de um formulário com questionário para conhecer o público-alvo de maneira mais profunda. Esses personagens ajudaram a manter a consistência da comunicação e identidade da marca durante o desenvolvimento da loja online;
+- Identidade visual consolidade, com criação de logo e [cartela de cores](https://www.figma.com/file/BhAeyEwi0T6o5koquYqDQu/HC-Final-Bee-In-Control?node-id=4%3A150); 
+- Criação de frases e CTAs para os banners do site sempre mantendo o tom característico da marca, alinhado com a identidade visual;
+- Criação e alimentação com vídeos e fotos das redes sociais Bee In Controll. [Facebook](https://www.facebook.com/beeincontrolloficial/), [Instagram](https://www.instagram.com/beeincontrolloficial/), [Youtube](https://www.youtube.com/channel/UCCE6CP2paufxjkpABhynUag).
 ---
 ### 📌 **Loja VTEX**
 
@@ -135,4 +136,4 @@ As seguintes tecnologias/ferramentas foram usadas na construção do projeto:
 #
 ## 📸 Preview
 
-<img alt="Preview" title="#Preview" src="../imagens/projeto/home-desktop.png" />
+<img alt="Preview" title="#Preview" src="https://i.ibb.co/mTzvH6r/Home-Desktop.png" />
